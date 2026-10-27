@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-  <title>Girls' Weekend Getaway (3 Friends) — TLV Flight, Hotel & Combo Deals (Jan 2027)</title>
+  <title>Girls' Weekend Getaway (3 Friends) — Half Board Flight, Hotel & Combo Deals (Jan 2027)</title>
   <style>
     :root {
       --bg: #0b1120;
@@ -75,7 +75,7 @@
     .title-group p {
       color: var(--text-muted);
       font-size: 0.94rem;
-      max-width: 880px;
+      max-width: 900px;
     }
 
     .badge-row {
@@ -107,15 +107,15 @@
     }
 
     .pill.gold {
-      background: rgba(251, 191, 36, 0.12);
+      background: rgba(251, 191, 36, 0.14);
       color: var(--gold);
-      border-color: rgba(251, 191, 36, 0.35);
+      border-color: rgba(251, 191, 36, 0.4);
     }
 
     .pill.emerald {
-      background: rgba(52, 211, 153, 0.12);
+      background: rgba(52, 211, 153, 0.14);
       color: var(--emerald);
-      border-color: rgba(52, 211, 153, 0.35);
+      border-color: rgba(52, 211, 153, 0.4);
     }
 
     /* Controls Bar */
@@ -563,6 +563,19 @@
       font-size: 0.78rem;
     }
 
+    .hb-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(251, 191, 36, 0.15);
+      color: var(--gold);
+      border: 1px solid rgba(251, 191, 36, 0.35);
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.76rem;
+    }
+
     .spa-tag {
       display: inline-block;
       font-size: 0.74rem;
@@ -596,12 +609,12 @@
     }
 
     .note-banner {
-      background: rgba(192, 132, 252, 0.1);
-      border-left: 4px solid #c084fc;
+      background: rgba(251, 191, 36, 0.1);
+      border-left: 4px solid var(--gold);
       padding: 12px 16px;
       border-radius: 8px;
       font-size: 0.85rem;
-      color: #f5d0fe;
+      color: #fde68a;
       margin-bottom: 20px;
     }
 
@@ -867,16 +880,16 @@
   <header>
     <div class="container">
       <div class="title-group">
-        <h1>👯‍♀️ Girls' Weekend Getaway (Wife + 2 Friends) — 9-City Comparison</h1>
+        <h1>👯‍♀️ Girls' Weekend Getaway (3 Friends) — Half Board (Breakfast & Dinner) Comparison</h1>
         <p>
-          Comparing <strong>9 individual cities side-by-side</strong> for <strong>3 Adults (Triple Room / Junior Suite)</strong>, including
-          <strong>Flight + Hotel Combo Deals ("חבילות נופש")</strong> from Israeli deal sites, direct Israeli flights (<strong>El Al / Sun d'Or, Israir, Arkia</strong>), and <strong>4★ & 5★ hotels rated ≥ 8.0</strong>.
+          Comparing <strong>9 individual cities side-by-side</strong> for <strong>3 Adults (Triple Room / Junior Suite)</strong> with
+          <strong>Half Board (Breakfast & Dinner Included — חצי פנסיון)</strong> across all hotels & <strong>Flight + Hotel Combo Deals</strong>, paired with direct Israeli flights (<strong>El Al / Sun d'Or, Israir, Arkia</strong>) and <strong>4★ & 5★ hotels rated ≥ 8.0</strong>.
         </p>
         <div class="badge-row">
-          <span class="pill purple">👩‍👩‍👧 3 Friends (1 Triple / Suite Room — Saves 10–14%/pp!)</span>
-          <span class="pill emerald">🔥 Includes Combo Deals (Issta, Eshet, Israir, Arkia, Gulliver, Expedia)</span>
+          <span class="pill gold">🍽️ 100% Half Board+ (Breakfast & Dinner Included!)</span>
+          <span class="pill purple">👩‍👩‍👧 3 Friends (1 Triple / Suite Room — Saves 10–14%/pp)</span>
+          <span class="pill emerald">🔥 Half-Board Combo Deals (Issta, Eshet, Israir, Arkia, Gulliver, Expedia)</span>
           <span class="pill">🇮🇱 Eilat: Jan 21–23, 2027 (2N) · Abroad: Jan 21–24, 2027 (3N)</span>
-          <span class="pill gold">★ 4★ & 5★ Hotels Only (8.2–9.3 Score)</span>
         </div>
       </div>
     </div>
@@ -904,7 +917,7 @@
       <div class="controls-row">
         <div class="control-group">
           <span class="control-label">Hotels:</span>
-          <button class="btn-toggle active" onclick="filterStars('all', this)">All 4★/5★</button>
+          <button class="btn-toggle active" onclick="filterStars('all', this)">All Half-Board 4★/5★</button>
           <button class="btn-toggle" onclick="filterStars('5', this)">5★ Only</button>
           <button class="btn-toggle" onclick="filterStars('4', this)">4★ Value</button>
           <button class="btn-toggle" onclick="filterStars('pool', this)">🏊 Heated Pool / Thermal Spa</button>
@@ -927,10 +940,10 @@
 
     <!-- Master City-by-City Comparison Matrix -->
     <section class="summary-card">
-      <div class="section-title">📊 City-by-City Comparison (Ranked for a 3-Friends Girls' Trip)</div>
+      <div class="section-title">📊 City-by-City Half Board Comparison (Ranked for a 3-Friends Girls' Trip)</div>
       <div class="section-subtitle">
-        Comparing all <strong>9 cities individually</strong> (no country grouping). Prices shown for <strong>3 Adults sharing a Triple Room / Junior Suite</strong>.
-        Tap any city row to jump to its Combo Deals, Flights & Hotels.
+        Comparing all <strong>9 cities individually</strong> (no country grouping). All prices include <strong>Direct Flights + 3-Adult Triple/Suite Room + Half Board (Breakfast & Dinner)</strong>.
+        Tap any city row to jump to its Half-Board Combo Deals, Flights & Hotels.
       </div>
       <table id="master-summary-table">
         <thead>
@@ -938,9 +951,9 @@
             <th>City & Girls' Trip Score</th>
             <th>Stay & Flight</th>
             <th>Shopping / Spa / Vibe Scores</th>
-            <th>🔥 Best 4★ Combo Deal</th>
-            <th>🔥 Best 5★ Combo Deal</th>
-            <th>DIY 4★ / 5★ (Separate)</th>
+            <th>🍽️ Best 4★ Half-Board Combo</th>
+            <th>🍽️ Best 5★ Half-Board Combo</th>
+            <th>DIY Half-Board (4★ / 5★)</th>
             <th>Explore</th>
           </tr>
         </thead>
@@ -949,7 +962,7 @@
     </section>
 
     <div class="note-banner">
-      👯‍♀️ <strong>Why Flight + Hotel Combo Deals Win for 3 Friends:</strong> Israeli tour operators (<strong>Israir, Arkia, Issta, Eshet Tours, Gulliver, Flying Carpet</strong>) and <strong>Expedia</strong> bundle direct Israeli flights + <strong>Triple Room / Junior Suite</strong> + Breakfast + <strong>8kg Trolley & Transfers</strong>, saving <strong>$60–$95 per person ($180–$285 for the group of 3)</strong> compared to booking flights and hotels separately! Tap any Combo Deal card or Flight/Hotel row below.
+      🍽️ <strong>All Hotels & Combo Deals Now Include Half Board (Breakfast + Dinner Included — חצי פנסיון):</strong> Every hotel and tour-operator bundle below includes daily buffet breakfast AND chef/buffet dinner (or Half Board Plus with wine/drinks in Paphos). Tap any Combo Deal card or Flight/Hotel row to calculate your live total!
     </div>
 
     <!-- Destination Cards Container -->
@@ -969,10 +982,10 @@
         </div>
         <div class="pkg-slot">
           <div class="slot-label">
-            <span id="slot-2-title">🏨 Triple Room / Suite</span>
+            <span id="slot-2-title">🍽️ Half-Board Triple / Suite</span>
             <a id="sticky-hotel-link" href="#" target="_blank" rel="noopener" style="color:var(--emerald)">Booking.com ↗</a>
           </div>
-          <div class="slot-val" id="selected-hotel-label">NYX Esperia Palace Athens (5★ · 8.9)</div>
+          <div class="slot-val" id="selected-hotel-label">Electra Metropolis Athens (5★ · Half Board)</div>
         </div>
         <div class="pkg-slot bag-slot" style="max-width: 220px;">
           <div class="slot-label">🧳 Cabin Trolley</div>
@@ -986,8 +999,8 @@
       </div>
       <div class="pkg-total-box">
         <div class="pkg-total-amount">
-          <div class="lbl" id="pkg-mode-label">Per Person (Each of 3 Friends)</div>
-          <div class="num" id="pkg-total-display">$415 USD · ₪1,515 ILS</div>
+          <div class="lbl" id="pkg-mode-label">Half-Board Total Per Person (÷3)</div>
+          <div class="num" id="pkg-total-display">$380 USD · ₪1,387 ILS</div>
         </div>
       </div>
     </div>
@@ -1030,28 +1043,28 @@
         flightDuration: '2h 15m',
         airlines: 'El Al (LY), Israir (6H), Arkia (IZ)',
         girlsRank: '#1 Girls’ Trip Pick (9.6/10)',
-        scores: '🛍️ Shopping 10/10 · 🥐 Brunch/Cafés 9.8/10 · 🍷 Nightlife/Tavernas 10/10 · 🧖‍♀️ Spas 8.8/10',
-        vibe: 'Ermou St. January winter sales, Kolonaki/Plaka cafés, live bouzouki tavernas & Acropolis rooftop bars',
+        scores: '🛍️ Shopping 10/10 · 🥐 Brunch/Cafés 9.8/10 · 🍷 Rooftop HB Dining 10/10 · 🧖‍♀️ Spas 9.0/10',
+        vibe: 'Ermou St. January winter sales, Acropolis-view rooftop Half-Board dinners & indoor hotel spa pools',
         comboDeals: [
-          { id: 'ath-d1', provider: 'Israir Packages', title: 'NYX Esperia Palace 5★ (8.9) Combo', stars: 5, includes: 'Direct Israir 6H 561/566 + Secret Triple Room + Breakfast + Heated Indoor Spa Pool + 8kg Trolley', total3Usd: 1245, save3Usd: 222 },
-          { id: 'ath-d2', provider: 'Arkia Packages', title: 'Elia Ermou Athens 4★ (8.9) Shopping Deal', stars: 4, includes: 'Direct Arkia IZ 211/214 + Deluxe Family Triple on Ermou St. + Breakfast + 8kg Trolley', total3Usd: 1185, save3Usd: 240 },
-          { id: 'ath-d3', provider: 'Issta', title: 'Electra Metropolis 5★ (9.0) Flagship Deal', stars: 5, includes: 'Direct El Al LY 541/544 (w/ 8kg Trolley) + Deluxe Triple + Acropolis Rooftop Breakfast & Indoor Pool', total3Usd: 1617, save3Usd: 198 },
-          { id: 'ath-d4', provider: 'Eshet Tours', title: 'The Stanley 4★ (8.3) Value Combo', stars: 4, includes: 'Direct Israir 6H 565/562 + Superior Triple + Breakfast + Heated Rooftop Pool + 8kg Trolley & Transfers', total3Usd: 945, save3Usd: 177 }
+          { id: 'ath-d1', provider: 'Gulliver', title: 'The Stanley 4★ (8.3) / President 4★ (8.2) — Rooftop Half Board Deal', stars: 4, includes: 'Direct Israir 6H 565/562 + Superior Triple + HALF BOARD (Breakfast & Sweet Basil / Cloud 9 Rooftop Dinner) + Heated Rooftop Pool + 8kg Trolley', total3Usd: 1140, save3Usd: 180 },
+          { id: 'ath-d2', provider: 'Issta', title: 'Wyndham Grand Athens 5★ (8.2) — Above Rooftop Half Board', stars: 5, includes: 'Direct Arkia IZ 211/214 + Executive Triple Suite + HALF BOARD (Breakfast & ABOVE Acropolis Rooftop Dinner) + 8kg Trolley', total3Usd: 1215, save3Usd: 225 },
+          { id: 'ath-d3', provider: 'Israir Packages', title: 'Divani Caravel 5★ (8.5) — Half Board & Heated Indoor Pool', stars: 5, includes: 'Direct Israir 6H 561/566 + Deluxe Triple + HALF BOARD (Breakfast & Acropolis View Dinner) + Heated Rooftop Indoor Pool + 8kg Trolley', total3Usd: 1380, save3Usd: 240 },
+          { id: 'ath-d4', provider: 'Issta', title: 'Electra Metropolis 5★ (9.0) / Electra Palace 5★ (8.9) — Flagship HB', stars: 5, includes: 'Direct El Al LY 541/544 (w/ 8kg Trolley) + Deluxe Triple + HALF BOARD (Breakfast & Acropolis Roof Garden Dinner) + Heated Indoor Spa Pool', total3Usd: 1560, save3Usd: 270 }
         ],
         flights: [
           { id: 'ath-f1', airline: 'LY', carrierName: 'El Al', fnOut: 'LY 541', depOut: '06:45 TLV → 09:00 ATH', fnRet: 'LY 544', depRet: '21:55 ATH → 23:55 TLV', slot: 'Max 4 Full Days (Early AM / Late Night)', ppUsd: 275, trolleyPpUsd: 0 },
           { id: 'ath-f2', airline: 'LY', carrierName: 'El Al', fnOut: 'LY 543', depOut: '18:15 TLV → 20:30 ATH', fnRet: 'LY 542', depRet: '10:15 ATH → 12:15 TLV', slot: 'Evening Out / Morning Back', ppUsd: 235, trolleyPpUsd: 0 },
           { id: 'ath-f3', airline: '6H', carrierName: 'Israir', fnOut: '6H 561', depOut: '08:00 TLV → 10:15 ATH', fnRet: '6H 566', depRet: '20:30 ATH → 22:30 TLV', slot: 'Best Value Full Weekend (Morning / Evening)', ppUsd: 199, trolleyPpUsd: 40 },
-          { id: 'ath-f4', airline: '6H', carrierName: 'Israir', fnOut: '6H 565', depOut: '15:10 TLV → 17:25 ATH', fnRet: '6H 562', depRet: '11:30 ATH → 13:30 TLV', slot: 'Lowest Fare (Afternoon Out / Morning Back)', ppUsd: 179, trolleyPpUsd: 40 },
+          { id: 'ath-f4', airline: '6H', carrierName: 'Israir', fnOut: '6H 565', depOut: '15:10 TLV → 17:25 ATH', fnRet: '6H 562', depRet: '11:30 ATH → 13:30 TLV', slot: 'Lowest Fare (Afternoon Out / Morning Back)', ppUsd: 185, trolleyPpUsd: 40 },
           { id: 'ath-f5', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 211', depOut: '09:30 TLV → 11:45 ATH', fnRet: 'IZ 214', depRet: '21:15 ATH → 23:15 TLV', slot: 'Mid-Morning Out / Late Evening Back', ppUsd: 215, trolleyPpUsd: 40 }
         ],
         hotels: [
-          { id: 'ath-h1', name: 'Electra Metropolis Athens', stars: 5, rating: 9.0, area: 'Syntagma / Plaka', room3: 'Deluxe Triple / Junior Suite', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Acropolis rooftop breakfast + indoor heated spa pool', total3Usd: 990 },
-          { id: 'ath-h2', name: 'NYX Esperia Palace Hotel Athens', stars: 5, rating: 8.9, area: 'Stadiou / Syntagma', room3: 'Secret Triple / Junior Suite', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Trendy 5★ with indoor heated spa pool & sauna', total3Usd: 750 },
-          { id: 'ath-h3', name: 'Wyndham Grand Athens', stars: 5, rating: 8.2, area: 'Metaxourgeio (By Metro)', room3: 'Executive Triple Suite', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Panoramic Acropolis rooftop bar & spa', total3Usd: 585 },
-          { id: 'ath-h4', name: 'Elia Ermou Athens Hotel', stars: 4, rating: 8.9, area: 'Ermou Shopping Street', room3: 'Deluxe Family Triple', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Step right onto Ermou shopping + wellness club', total3Usd: 660 },
-          { id: 'ath-h5', name: 'Amalia Hotel Athens', stars: 4, rating: 8.5, area: 'Syntagma Square', room3: 'Deluxe Triple Room', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Facing National Gardens & Plaka entrance', total3Usd: 585 },
-          { id: 'ath-h6', name: 'The Stanley', stars: 4, rating: 8.3, area: 'Karaiskaki Sq. (By Metro)', room3: 'Superior Triple Room', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Cloud 9 rooftop bar & heated rooftop pool', total3Usd: 465 }
+          { id: 'ath-h1', name: 'Electra Metropolis Athens', stars: 5, rating: 9.0, area: 'Syntagma / Plaka', room3: 'Deluxe Triple / Junior Suite', board: 'Half Board (Breakfast & Acropolis Roof Garden Dinner)', heatedPool: true, poolNote: 'Acropolis rooftop dining + indoor heated spa pool', total3Usd: 1185 },
+          { id: 'ath-h2', name: 'Electra Palace Athens', stars: 5, rating: 8.9, area: 'Heart of Plaka', room3: 'Classic Triple / Junior Suite', board: 'Half Board (Breakfast & Electra Roof Garden Dinner)', heatedPool: true, poolNote: 'Aristocratic Plaka landmark + heated indoor pool & spa', total3Usd: 1080 },
+          { id: 'ath-h3', name: 'Divani Caravel Hotel', stars: 5, rating: 8.5, area: 'Kolonaki / Hilton District', room3: 'Deluxe Triple Room', board: 'Half Board (Breakfast & Acropolis View Dinner)', heatedPool: true, poolNote: 'Heated rooftop indoor/outdoor pool + Peak Health Spa', total3Usd: 930 },
+          { id: 'ath-h4', name: 'Wyndham Grand Athens', stars: 5, rating: 8.2, area: 'Metaxourgeio (By Metro)', room3: 'Executive Triple Suite', board: 'Half Board (Breakfast & ABOVE Rooftop Dinner)', heatedPool: false, poolNote: 'Panoramic Acropolis rooftop restaurant & spa', total3Usd: 735 },
+          { id: 'ath-h5', name: 'The Stanley', stars: 4, rating: 8.3, area: 'Karaiskaki Sq. (By Metro)', room3: 'Superior Triple Room', board: 'Half Board (Breakfast & Sweet Basil Rooftop Dinner)', heatedPool: true, poolNote: 'Cloud 9 rooftop restaurant & heated rooftop pool', total3Usd: 630 },
+          { id: 'ath-h6', name: 'President Hotel Athens', stars: 4, rating: 8.2, area: 'Ampelokipoi (By Metro)', room3: 'Deluxe Triple Room', board: 'Half Board (Breakfast & Avenue Buffet Dinner)', heatedPool: false, poolNote: 'Penthouse 21st-floor rooftop bar & spacious triples', total3Usd: 585 }
         ]
       },
       {
@@ -1067,25 +1080,27 @@
         flightDuration: '2h 45m',
         airlines: 'El Al (LY), Israir (6H), Arkia (IZ)',
         girlsRank: '#2 Girls’ Trip Pick (9.4/10)',
-        scores: '🧖‍♀️ Thermal Spa 10/10 (Therme!) · 🍷 Nightlife/Dining 9.5/10 · 🥐 Cafés 9.4/10 · 🛍️ Shopping 9.2/10',
-        vibe: 'Home to Therme București (33°C indoor tropical palm lagoons & pool bars) + 5★ palace hotels & mega-malls',
+        scores: '🧖‍♀️ Thermal Spa 10/10 (Therme!) · 🍷 Fine Dining 9.5/10 · 🥐 Cafés 9.4/10 · 🛍️ Shopping 9.2/10',
+        vibe: 'Home to Therme București (33°C indoor tropical palm lagoons) + 5★ palace Half-Board brasserie dinners',
         comboDeals: [
-          { id: 'otp-d1', provider: 'Eshet Tours', title: 'Radisson Blu Bucharest 5★ (8.6) Spa & Casino Combo', stars: 5, includes: 'Direct Israir 6H 701/702 + Junior Suite Triple + Breakfast + Heated Indoor Pool + 8kg Trolley & Transfers', total3Usd: 1197, save3Usd: 243 },
-          { id: 'otp-d2', provider: 'Expedia Bundle', title: 'The Marmorosch Autograph 5★ (9.2) Palace Bundle', stars: 5, includes: 'Direct El Al LY 573/572 (w/ 8kg Trolley) + Platinum Junior Suite (3 Adults) + Breakfast + Indoor Pool & Vault Bar', total3Usd: 1467, save3Usd: 183 },
-          { id: 'otp-d3', provider: 'Issta', title: 'Hilton Garden Inn Old Town 4★ (8.9) Girls’ Deal', stars: 4, includes: 'Direct Arkia IZ 381/382 + Deluxe Evolution Triple in Old Town + Breakfast + 8kg Trolley & Transfers', total3Usd: 1065, save3Usd: 255 },
-          { id: 'otp-d4', provider: 'Gulliver', title: 'JW Marriott Grand 5★ (8.9) Luxury Bundle', stars: 5, includes: 'Direct El Al LY 571/574 (w/ 8kg Trolley) + 42m² Grand Triple + Breakfast + Indoor Pool & Health Club', total3Usd: 1305, save3Usd: 165 }
+          { id: 'otp-d1', provider: 'Eshet Tours', title: 'Ramada Plaza by Wyndham 4★ (8.5) — Vitality Wellness HB Deal', stars: 4, includes: 'Direct Israir 6H 701/702 + Executive Triple + HALF BOARD (Breakfast & Red Pepper/Avalon Dinner) + Heated Indoor Spa Pool + Transfers & 8kg Trolley', total3Usd: 1245, save3Usd: 225 },
+          { id: 'otp-d2', provider: 'Gulliver', title: 'Crowne Plaza Bucharest 4★+ (8.8) — ANA Spa Half Board Deal', stars: 4, includes: 'Direct Arkia IZ 381/382 + King Suite/Triple + HALF BOARD (Breakfast & Pine Garden Dinner) + Heated Indoor Pool & Hammam + 8kg Trolley', total3Usd: 1395, save3Usd: 240 },
+          { id: 'otp-d3', provider: 'Issta', title: 'Radisson Blu Bucharest 5★ (8.6) — Half Board & 22m Indoor Pool', stars: 5, includes: 'Direct Israir 6H 701/702 + Junior Suite Triple + HALF BOARD (Breakfast & Dacia Felix / Sharkia Dinner) + 22m Indoor Heated Pool + 8kg Trolley', total3Usd: 1620, save3Usd: 240 },
+          { id: 'otp-d4', provider: 'Expedia Bundle', title: 'InterContinental Athénée Palace 5★ (9.1) — Palace Half Board', stars: 5, includes: 'Direct El Al LY 573/572 (w/ 8kg Trolley) + Junior Suite (3 Adults) + HALF BOARD (Breakfast & Roberto’s Italian Dinner) + Heated Indoor Pool', total3Usd: 1785, save3Usd: 240 }
         ],
         flights: [
           { id: 'otp-f1', airline: 'LY', carrierName: 'El Al', fnOut: 'LY 573', depOut: '07:05 TLV → 09:50 OTP', fnRet: 'LY 572', depRet: '21:45 OTP → 00:20 TLV', slot: 'Max 4 Full Days (Morning Out / Night Back)', ppUsd: 265, trolleyPpUsd: 0 },
           { id: 'otp-f2', airline: 'LY', carrierName: 'El Al', fnOut: 'LY 571', depOut: '18:00 TLV → 20:45 OTP', fnRet: 'LY 574', depRet: '10:55 OTP → 13:30 TLV', slot: 'Evening Out / Morning Back', ppUsd: 245, trolleyPpUsd: 0 },
-          { id: 'otp-f3', airline: '6H', carrierName: 'Israir', fnOut: '6H 701', depOut: '08:30 TLV → 11:15 OTP', fnRet: '6H 702', depRet: '12:15 OTP → 14:50 TLV', slot: 'Morning Out / Midday Back (Best Fare)', ppUsd: 215, trolleyPpUsd: 40 },
-          { id: 'otp-f4', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 381', depOut: '10:15 TLV → 13:00 OTP', fnRet: 'IZ 382', depRet: '14:00 OTP → 16:35 TLV', slot: 'Late Morning Out / Afternoon Back', ppUsd: 225, trolleyPpUsd: 45 }
+          { id: 'otp-f3', airline: '6H', carrierName: 'Israir', fnOut: '6H 701', depOut: '08:30 TLV → 11:15 OTP', fnRet: '6H 702', depRet: '12:15 OTP → 14:50 TLV', slot: 'Morning Out / Midday Back (Best Fare)', ppUsd: 205, trolleyPpUsd: 40 },
+          { id: 'otp-f4', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 381', depOut: '10:15 TLV → 13:00 OTP', fnRet: 'IZ 382', depRet: '14:00 OTP → 16:35 TLV', slot: 'Late Morning Out / Afternoon Back', ppUsd: 220, trolleyPpUsd: 45 }
         ],
         hotels: [
-          { id: 'otp-h1', name: 'The Marmorosch Bucharest, Autograph Collection', stars: 5, rating: 9.2, area: 'Old Town Edge', room3: 'Platinum Junior Suite (3 Adults)', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Belle Époque bank palace + heated indoor pool & Vault Bar', total3Usd: 855 },
-          { id: 'otp-h2', name: 'JW Marriott Bucharest Grand Hotel', stars: 5, rating: 8.9, area: 'Palace of Parliament', room3: 'Deluxe Grand Triple (42m²)', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Grand luxury, indoor pool, spa & Grand Casino', total3Usd: 735 },
-          { id: 'otp-h3', name: 'Radisson Blu Hotel Bucharest', stars: 5, rating: 8.6, area: 'Calea Victoriei Avenue', room3: 'Junior Suite Triple', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Indoor heated lap pool, Bali Spa & Platinum Casino', total3Usd: 675 },
-          { id: 'otp-h4', name: 'Hilton Garden Inn Bucharest Old Town', stars: 4, rating: 8.9, area: 'Heart of Old Town', room3: 'Deluxe Evolution Triple', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Steps from Old Town cafes, bars & Caru cu Bere', total3Usd: 510 }
+          { id: 'otp-h1', name: 'InterContinental Athénée Palace Bucharest', stars: 5, rating: 9.1, area: 'Revolution Sq. / Calea Victoriei', room3: 'Junior Suite / King Premium (3 Adults)', board: 'Half Board (Breakfast & Roberto’s Dinner)', heatedPool: true, poolNote: '1914 palace landmark + heated indoor pool, sauna & steam', total3Usd: 1140 },
+          { id: 'otp-h2', name: 'JW Marriott Bucharest Grand Hotel', stars: 5, rating: 8.9, area: 'Palace of Parliament', room3: 'Deluxe Grand Triple (42m²)', board: 'Half Board (Breakfast & Cucina/Pavilion Dinner)', heatedPool: true, poolNote: 'Grand luxury, heated indoor pool, spa & Grand Casino', total3Usd: 1080 },
+          { id: 'otp-h3', name: 'Radisson Blu Hotel Bucharest', stars: 5, rating: 8.6, area: 'Calea Victoriei Avenue', room3: 'Junior Suite Triple', board: 'Half Board (Breakfast & Sharkia/Dacia Dinner)', heatedPool: true, poolNote: '22m heated indoor pool, Bali Spa & Platinum Casino', total3Usd: 990 },
+          { id: 'otp-h4', name: 'Crowne Plaza Bucharest by IHG', stars: 4, rating: 8.8, area: 'Herăstrău Park North', room3: 'King Suite / Superior Triple', board: 'Half Board (Breakfast & Pine Restaurant Dinner)', heatedPool: true, poolNote: 'ANA Spa heated indoor pool, hammam & garden terrace', total3Usd: 780 },
+          { id: 'otp-h5', name: 'Caro Hotel Bucharest', stars: 4, rating: 8.6, area: 'Floreasca Lake District', room3: 'Deluxe Triple / Suite', board: 'Half Board (Breakfast & La Vitrine Dinner)', heatedPool: true, poolNote: 'World Class Wellness with heated indoor pool & sauna', total3Usd: 690 },
+          { id: 'otp-h6', name: 'Ramada Plaza by Wyndham Bucharest', stars: 4, rating: 8.5, area: 'North Park District (Near Therme)', room3: 'Executive Triple Room', board: 'Half Board (Breakfast & Red Pepper Dinner)', heatedPool: true, poolNote: 'Vitality Wellness Club w/ large heated indoor pool', total3Usd: 645 }
         ]
       },
       {
@@ -1101,25 +1116,26 @@
         flightDuration: '2h 25m',
         airlines: "El Al / Sun d'Or (LY), Israir (6H), Arkia (IZ)",
         girlsRank: '#3 Girls’ Trip Pick (9.2/10)',
-        scores: '🥐 Foodie/Brunch 9.6/10 · 🍷 Ladadika Tavernas 9.6/10 · 🚶‍♀️ Walkability 9.5/10 · 🛍️ Shopping 9.3/10',
-        vibe: 'Flat, ultra-walkable seafront where Tsimiski shopping, Modiano food market & Ladadika live music are 3 mins apart',
+        scores: '🥐 Foodie/Dining 9.8/10 · 🍷 Ladadika Tavernas 9.6/10 · 🚶‍♀️ Walkability 9.5/10 · 🛍️ Shopping 9.3/10',
+        vibe: 'Greece’s culinary capital—enjoy sea-view Half-Board dinners plus Tsimiski shopping & Ladadika live music',
         comboDeals: [
-          { id: 'skg-d1', provider: 'Israir Packages', title: 'Makedonia Palace 5★ (9.0) Waterfront Hammam Deal', stars: 5, includes: 'Direct Israir 6H 571/572 + Deluxe Sea/City Triple + Breakfast + Hammam Spa + 8kg Trolley & Transfers', total3Usd: 1275, save3Usd: 237 },
-          { id: 'skg-d2', provider: 'Gulliver', title: 'Electra Palace 5★ (9.0) Aristotelous Square Bundle', stars: 5, includes: 'Direct Sun d\'Or / El Al LY 5051/5052 (w/ 8kg Trolley) + Executive Triple + Rooftop Breakfast & Indoor Pool', total3Usd: 1425, save3Usd: 192 },
-          { id: 'skg-d3', provider: 'Expedia Bundle', title: 'MonAsty Autograph Collection 5★ (9.1) Bundle', stars: 5, includes: 'Direct El Al / Sun d\'Or LY 5051/5052 (w/ 8kg Trolley) + Junior Suite (3 Adults) + Breakfast', total3Usd: 1395, save3Usd: 177 },
-          { id: 'skg-d4', provider: 'Arkia Packages', title: 'Colors Urban Hotel 4★ (8.8) Ladadika Loft Deal', stars: 4, includes: 'Direct Israir/Arkia Flight + Palette Triple Loft on Tsimiski St. + Breakfast + 8kg Trolley', total3Usd: 987, save3Usd: 210 }
+          { id: 'skg-d1', provider: 'Gulliver', title: 'Grand Hotel Palace 5★ (8.3) / Porto Palace 5★ (8.5) — HB Deal', stars: 5, includes: 'Direct Israir 6H 571/572 + Deluxe Triple + HALF BOARD (Breakfast & Seros/Zaytinya Dinner) + Heated Indoor Pool + 8kg Trolley', total3Usd: 1095, save3Usd: 210 },
+          { id: 'skg-d2', provider: 'Issta', title: 'Mediterranean Palace 5★ (8.8) — Ladadika Seafront HB Deal', stars: 5, includes: 'Direct Arkia IZ 221/222 + Deluxe Triple + HALF BOARD (Breakfast & Diplomatico Dinner) + Heated Indoor Spa Pool + 8kg Trolley', total3Usd: 1170, save3Usd: 225 },
+          { id: 'skg-d3', provider: 'Arkia Packages', title: 'Electra Palace 5★ (9.0) — Aristotelous Rooftop HB Bundle', stars: 5, includes: 'Direct Israir/Arkia + Executive Triple + HALF BOARD (Orizontes Roof Garden Breakfast & Dinner) + Heated Indoor Pool + 8kg Trolley', total3Usd: 1350, save3Usd: 240 },
+          { id: 'skg-d4', provider: 'Israir Packages', title: 'Makedonia Palace 5★ (9.0) — Seafront Salonica HB & Hammam', stars: 5, includes: 'Direct Sun d\'Or / El Al LY 5051/5052 (w/ 8kg Trolley) + Deluxe Sea-View Triple + HALF BOARD (Breakfast & Salonica Dinner) + Hammam Spa', total3Usd: 1410, save3Usd: 255 }
         ],
         flights: [
-          { id: 'skg-f1', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5051', depOut: '07:30 TLV → 09:55 SKG', fnRet: 'LY 5052', depRet: '11:10 SKG → 13:20 TLV', slot: 'Early Morning Out / Late Morning Back', ppUsd: 249, trolleyPpUsd: 0 },
-          { id: 'skg-f2', airline: '6H', carrierName: 'Israir', fnOut: '6H 571', depOut: '09:15 TLV → 11:40 SKG', fnRet: '6H 572', depRet: '19:45 SKG → 21:55 TLV', slot: 'Best Full-Weekend Timing (Morning / Evening)', ppUsd: 209, trolleyPpUsd: 40 },
-          { id: 'skg-f3', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 221', depOut: '13:20 TLV → 15:45 SKG', fnRet: 'IZ 222', depRet: '16:50 SKG → 19:00 TLV', slot: 'Early Afternoon Out / Late Afternoon Back', ppUsd: 225, trolleyPpUsd: 40 }
+          { id: 'skg-f1', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5051', depOut: '07:30 TLV → 09:55 SKG', fnRet: 'LY 5052', depRet: '11:10 SKG → 13:20 TLV', slot: 'Early Morning Out / Late Morning Back', ppUsd: 235, trolleyPpUsd: 0 },
+          { id: 'skg-f2', airline: '6H', carrierName: 'Israir', fnOut: '6H 571', depOut: '09:15 TLV → 11:40 SKG', fnRet: '6H 572', depRet: '19:45 SKG → 21:55 TLV', slot: 'Best Full-Weekend Timing (Morning / Evening)', ppUsd: 195, trolleyPpUsd: 40 },
+          { id: 'skg-f3', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 221', depOut: '13:20 TLV → 15:45 SKG', fnRet: 'IZ 222', depRet: '16:50 SKG → 19:00 TLV', slot: 'Early Afternoon Out / Late Afternoon Back', ppUsd: 205, trolleyPpUsd: 40 }
         ],
         hotels: [
-          { id: 'skg-h1', name: 'Electra Palace Thessaloniki', stars: 5, rating: 9.0, area: 'Aristotelous Square', room3: 'Executive Triple / Junior Suite', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Landmark seafront square + indoor heated pool & spa', total3Usd: 870 },
-          { id: 'skg-h2', name: 'MonAsty, Autograph Collection', stars: 5, rating: 9.1, area: 'City Center / Aristotelous', room3: 'Junior Suite (3 Adults)', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Marriott boutique luxury steps from Modiano Market', total3Usd: 825 },
-          { id: 'skg-h3', name: 'Makedonia Palace', stars: 5, rating: 9.0, area: 'Nea Paralia Waterfront', room3: 'Deluxe Triple Sea/City View', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Iconic waterfront luxury + lavish Hammam Spa', total3Usd: 765 },
-          { id: 'skg-h4', name: 'ONOMA Hotel', stars: 5, rating: 8.9, area: 'Monastiriou Center', room3: 'Run The Show Triple Suite', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Smart-tech 5★ design hotel at 4★ price', total3Usd: 540 },
-          { id: 'skg-h5', name: 'Colors Urban Hotel Thessaloniki', stars: 4, rating: 8.8, area: 'Tsimiski / Ladadika', room3: 'Palette Triple / 4-Bed Loft', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Heart of shopping & tavernas + Garden Massage & Spa', total3Usd: 450 }
+          { id: 'skg-h1', name: 'Makedonia Palace', stars: 5, rating: 9.0, area: 'Nea Paralia Waterfront', room3: 'Deluxe Triple Sea/City View', board: 'Half Board (Breakfast & Salonica Seafront Dinner)', heatedPool: true, poolNote: 'Iconic waterfront luxury + lavish Hammam Baths', total3Usd: 960 },
+          { id: 'skg-h2', name: 'Electra Palace Thessaloniki', stars: 5, rating: 9.0, area: 'Aristotelous Square', room3: 'Executive Triple / Junior Suite', board: 'Half Board (Breakfast & Orizontes Roof Dinner)', heatedPool: true, poolNote: 'Landmark seafront square + heated indoor pool & spa', total3Usd: 930 },
+          { id: 'skg-h3', name: 'Mediterranean Palace', stars: 5, rating: 8.8, area: 'Ladadika Harbor Front', room3: 'Deluxe Triple Sea View', board: 'Half Board (Breakfast & Diplomatico Dinner)', heatedPool: true, poolNote: 'Right by Ladadika tavernas + heated indoor hydro-pool', total3Usd: 720 },
+          { id: 'skg-h4', name: 'Porto Palace Hotel Thessaloniki', stars: 5, rating: 8.5, area: 'New Harbor District', room3: 'Superior Triple / Family Suite', board: 'Half Board (Breakfast & Zaytinya Dinner)', heatedPool: false, poolNote: 'Industrial-chic 1913 building w/ free shuttle to center', total3Usd: 600 },
+          { id: 'skg-h5', name: 'Grand Hotel Palace', stars: 5, rating: 8.3, area: 'Monastiriou (Free Shuttle)', room3: 'Deluxe Triple Room', board: 'Half Board (Breakfast & Seros Gourmet Dinner)', heatedPool: true, poolNote: '5★ Value with heated indoor pool, sauna & thalassotherapy', total3Usd: 585 },
+          { id: 'skg-h6', name: 'Capsis Hotel Thessaloniki', stars: 4, rating: 8.1, area: 'Vardaris / Downtown', room3: 'Family Triple Room', board: 'Half Board (Breakfast & Byzantio Dinner)', heatedPool: false, poolNote: 'Lowest Half-Board rate in Thessaloniki + hammam/sauna', total3Usd: 510 }
         ]
       },
       {
@@ -1135,13 +1151,13 @@
         flightDuration: '50–55 mins',
         airlines: 'Arkia (IZ), Israir (6H)',
         girlsRank: '#4 Girls’ Trip Pick (9.0/10)',
-        scores: '☀️ Weather 9.8/10 (22°C) · 🛍️ 0% VAT Shopping 9.2/10 · 🧖‍♀️ Resort Spas 9.2/10 · 🥐 Israeli Breakfast 9.6/10',
-        vibe: 'Warmest sunny weather (22°C), tax-free shopping at Ice Mall & Big, heated outdoor pools & zero passport hassle',
+        scores: '☀️ Weather 9.8/10 (22°C) · 🍽️ Israeli Half-Board 10/10 · 🛍️ 0% VAT Shopping 9.2/10 · 🧖‍♀️ Spas 9.2/10',
+        vibe: 'Legendary Israeli Half-Board & All-Inclusive (huge breakfasts + lavish Shabbat dinners), 22°C sun & 0% VAT',
         comboDeals: [
-          { id: 'etm-d1', provider: 'Arkia Packages', title: 'Herods Palace Eilat 5★ (8.6) Beachfront Deal', stars: 5, includes: 'Direct Arkia IZ 803/826 + Deluxe Triple Room + Lavish Israeli Breakfast + Heated Pool', total3Usd: 897, save3Usd: 117 },
-          { id: 'etm-d2', provider: 'Israir Packages', title: 'Royal Beach by Isrotel 5★ (9.1) Flagship Package', stars: 5, includes: 'Direct Israir 6H 425/442 + Bellavista Triple Suite + Royal Breakfast + Yaarot HaCarmel Spa Pool', total3Usd: 1125, save3Usd: 111 },
-          { id: 'etm-d3', provider: 'Issta', title: 'Vert Eilat 4★+ (8.5) Lagoon & Spa Package', stars: 4, includes: 'Direct Arkia IZ 815/828 + Superior Pool-View Triple + Breakfast + 28°C Heated Pool & Sauna', total3Usd: 747, save3Usd: 102 },
-          { id: 'etm-d4', provider: 'Gulliver', title: 'Brown Lighthouse Eilat 4★ (8.2) Boutique Weekend', stars: 4, includes: 'Direct Israir 6H 431/436 + Urban Triple Studio + Boutique Breakfast + Heated Pool & Jacuzzi Deck', total3Usd: 597, save3Usd: 81 }
+          { id: 'etm-d1', provider: 'Israir Packages', title: 'Vert Eilat 4★+ (8.5) — Half Board Heated Pool Deal', stars: 4, includes: 'Direct Israir 6H 425/442 + Superior Lagoon Triple + HALF BOARD (Israeli Breakfasts & Shabbat Buffet Dinners) + 28°C Heated Pool', total3Usd: 975, save3Usd: 120 },
+          { id: 'etm-d2', provider: 'Arkia Packages', title: 'Lagoona by Isrotel 4★ (8.4) — 100% ALL-INCLUSIVE Deal', stars: 4, includes: 'Direct Arkia IZ 803/826 + Classic Triple + FULL ALL-INCLUSIVE (Breakfast, Lunch, Dinner + Unlimited Wine, Beer & Drinks!) + Heated Pool', total3Usd: 1005, save3Usd: 129 },
+          { id: 'etm-d3', provider: 'Issta', title: 'King Solomon by Isrotel 4★+ (8.5) — Half Board Lagoon Deal', stars: 4, includes: 'Direct Arkia IZ 815/828 + Classic Lagoon-View Triple + HALF BOARD (Isrotel Breakfast & Shabbat Dinner Buffets) + Heated Pool', total3Usd: 1020, save3Usd: 120 },
+          { id: 'etm-d4', provider: 'Arkia Packages', title: 'Royal Beach by Isrotel 5★ (9.1) / Dan Eilat 5★ (9.0) — Flagship HB', stars: 5, includes: 'Direct Arkia IZ 803/826 + Bellavista/Deluxe Triple + HALF BOARD (Royal Breakfast & Chef Shabbat Dinners) + Yaarot HaCarmel Spa', total3Usd: 1320, save3Usd: 144 }
         ],
         flights: [
           { id: 'etm-f1', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 803', depOut: '07:40 TLV → 08:35 ETM', fnRet: 'IZ 826', depRet: '20:15 ETM → 21:10 TLV', slot: 'Morning Out / Post-Shabbat Night Back', ppUsd: 118, trolleyPpUsd: 30 },
@@ -1151,12 +1167,12 @@
           { id: 'etm-f5', airline: '6H', carrierName: 'Israir / Arkia', fnOut: '6H 437', depOut: '16:50 TLV → 17:40 ETM', fnRet: '6H 446', depRet: '20:50 ETM → 21:40 TLV', slot: 'After-Work Thu Out / Late Sat Return', ppUsd: 124, trolleyPpUsd: 30 }
         ],
         hotels: [
-          { id: 'etm-h1', name: 'Royal Beach Eilat by Isrotel', stars: 5, rating: 9.1, area: 'North Beach Promenade', room3: 'Bellavista Triple / Junior Suite', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Heated outdoor pool + Yaarot HaCarmel Spa', total3Usd: 900 },
-          { id: 'etm-h2', name: 'Dan Eilat Hotel', stars: 5, rating: 9.0, area: 'North Beach Promenade', room3: 'Deluxe Triple Sea View', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Large heated outdoor pool + spa & squash', total3Usd: 850 },
-          { id: 'etm-h3', name: 'Herods Palace Eilat', stars: 5, rating: 8.6, area: 'North Promenade Beachfront', room3: 'Deluxe Triple Room (3 Adults)', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Best-value 5★ beachfront + heated winter pool', total3Usd: 660 },
-          { id: 'etm-h4', name: 'Vert Eilat Hotel', stars: 4, rating: 8.5, area: 'Marina Lagoon', room3: 'Superior Triple Pool View', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Pool heated to 28°C in Jan + wet/dry sauna', total3Usd: 525 },
-          { id: 'etm-h5', name: 'Yam Suf by Isrotel', stars: 4, rating: 8.6, area: 'Coral Beach Reserve', room3: 'Classic Triple Garden Room', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Heated winter pool + Coral Reef diving center', total3Usd: 495 },
-          { id: 'etm-h6', name: 'Brown Lighthouse Eilat', stars: 4, rating: 8.2, area: 'Central / North Entry', room3: 'Studio Triple / Urban Suite', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Trendy boutique, heated pool & jacuzzi deck', total3Usd: 390 }
+          { id: 'etm-h1', name: 'Royal Beach Eilat by Isrotel', stars: 5, rating: 9.1, area: 'North Beach Promenade', room3: 'Bellavista Triple / Junior Suite', board: 'Half Board (Breakfast & Chef Dinner)', heatedPool: true, poolNote: 'Heated outdoor pool + Yaarot HaCarmel Spa', total3Usd: 1050 },
+          { id: 'etm-h2', name: 'Dan Eilat Hotel', stars: 5, rating: 9.0, area: 'North Beach Promenade', room3: 'Deluxe Triple Sea View', board: 'Half Board (Breakfast & Buffet Dinner)', heatedPool: true, poolNote: 'Large heated outdoor pool + spa & squash', total3Usd: 1020 },
+          { id: 'etm-h3', name: 'Queen of Sheba Eilat', stars: 5, rating: 8.7, area: 'North Beachfront Mall', room3: 'Deluxe Triple Room (3 Adults)', board: 'Half Board (Breakfast & Makeda Buffet Dinner)', heatedPool: true, poolNote: 'Heated pool, Sheba Spa & private shopping mall', total3Usd: 870 },
+          { id: 'etm-h4', name: 'King Solomon by Isrotel', stars: 4, rating: 8.5, area: 'North Lagoon Promenade', room3: 'Classic Triple Lagoon View', board: 'Half Board (Breakfast & Buffet Dinner)', heatedPool: true, poolNote: 'Heated outdoor pool, lagoon promenade & Isrotel dining', total3Usd: 735 },
+          { id: 'etm-h5', name: 'Lagoona by Isrotel (All-Inclusive)', stars: 4, rating: 8.4, area: 'North Lagoon Promenade', room3: 'Classic Triple Room', board: 'ALL-INCLUSIVE (3 Meals + Wine, Beer & Snacks!)', heatedPool: true, poolNote: '100% All-Inclusive meals & drinks + heated winter pool', total3Usd: 720 },
+          { id: 'etm-h6', name: 'Vert Eilat Hotel', stars: 4, rating: 8.5, area: 'Marina Lagoon', room3: 'Superior Triple Pool View', board: 'Half Board (Breakfast & Rondo Buffet Dinner)', heatedPool: true, poolNote: 'Pool heated to 28°C in Jan + wet/dry sauna', total3Usd: 690 }
         ]
       },
       {
@@ -1172,26 +1188,27 @@
         flightDuration: '2h 30m',
         airlines: "El Al / Sun d'Or (LY), Israir (6H), Arkia (IZ)",
         girlsRank: '#5 Girls’ Trip Pick (8.9/10)',
-        scores: '🧖‍♀️ Sulfur Baths 9.5/10 · 🥐 Hipster Cafés/Wine 9.4/10 · 🍷 Supra Nightlife 9.0/10 · 🛍️ Shopping 8.5/10',
-        vibe: 'Private hot sulfur bath rooms (Chreli Abano), trendy Stamba/Rooms aesthetic, amazing Georgian feasts & wine bars',
+        scores: '🧖‍♀️ Sulfur Baths 9.5/10 · 🍷 Georgian Feasts 9.6/10 · 🥐 5★ Spa Resorts 9.4/10 · 🛍️ Shopping 8.5/10',
+        vibe: 'Private hot sulfur bath rooms (Chreli Abano), 5★ heated indoor thermal pools & Georgian Half-Board feasts',
         comboDeals: [
-          { id: 'tbs-d1', provider: 'Eshet Tours', title: 'Radisson Blu Iveria 5★ (8.5) Rooftop Thermal Combo', stars: 5, includes: 'Direct Israir 6H 895/896 + Junior Suite Triple + Breakfast + Panoramic Indoor Pool + 8kg Trolley & Transfers', total3Usd: 1287, save3Usd: 273 },
-          { id: 'tbs-d2', provider: 'Israir Packages', title: 'Mercure Old Town 4★ (8.4) Sulfur Baths Deal', stars: 4, includes: 'Direct Israir 6H 895/896 + Privilege Triple + Breakfast + Sauna/Hammam + 8kg Trolley & Transfers', total3Usd: 1077, save3Usd: 243 },
-          { id: 'tbs-d3', provider: 'Issta', title: 'Swissôtel Tbilisi 5★ (9.1) Luxury Spa Package', stars: 5, includes: 'Direct Sun d\'Or / El Al LY 5109/5110 (w/ 8kg Trolley) + Swiss Advantage Triple + Breakfast + Pürovel Indoor Pool', total3Usd: 1545, save3Usd: 180 },
-          { id: 'tbs-d4', provider: 'Gulliver', title: 'Rooms Hotel Tbilisi 4★ (8.9) Cult-Design Bundle', stars: 4, includes: 'Direct Arkia IZ 415/416 + Signature Terrace Triple + Breakfast + 8kg Trolley', total3Usd: 1275, save3Usd: 255 }
+          { id: 'tbs-d1', provider: 'Israir Packages', title: 'Mercure Old Town 4★ (8.4) — Sulfur Baths Half Board Deal', stars: 4, includes: 'Direct Israir 6H 895/896 + Privilege Triple + HALF BOARD (Breakfast & ASADO Skybar Dinner) + Sauna/Hammam + Transfers & 8kg Trolley', total3Usd: 1155, save3Usd: 180 },
+          { id: 'tbs-d2', provider: 'Eshet Tours', title: 'Sheraton Grand Metechi Palace 5★ (8.8) — Half Board & Spa Pool', stars: 5, includes: 'Direct Israir 6H 895/896 + Deluxe Triple + HALF BOARD (Breakfast & ATI Rooftop / Feast Dinner) + P’auza Heated Indoor Pool + Transfers & Trolley', total3Usd: 1455, save3Usd: 210 },
+          { id: 'tbs-d3', provider: 'LastMinute / Flying Carpet', title: 'The Biltmore Tbilisi 5★ (8.7) — Royal Half Board & Indoor Pool', stars: 5, includes: 'Direct Arkia IZ 415/416 + Deluxe Triple + HALF BOARD (Breakfast & Sonnet/Xeme Sky Dinner) + Heated Indoor Pool + Transfers & 8kg Trolley', total3Usd: 1470, save3Usd: 225 },
+          { id: 'tbs-d4', provider: 'Issta', title: 'Paragraph Freedom Square 5★ (9.3) — Ultra-Luxury HB Deal', stars: 5, includes: 'Direct Sun d\'Or / El Al LY 5109/5110 (w/ 8kg Trolley) + Deluxe Triple + HALF BOARD (Breakfast & Ezo/Ostigan Dinner) + Panoramic Indoor Pool', total3Usd: 1875, save3Usd: 240 }
         ],
         flights: [
-          { id: 'tbs-f1', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5109', depOut: '07:15 TLV → 10:45 TBS', fnRet: 'LY 5110', depRet: '12:00 TBS → 13:40 TLV', slot: 'Morning Out / Midday Back', ppUsd: 285, trolleyPpUsd: 0 },
-          { id: 'tbs-f2', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5107', depOut: '17:40 TLV → 21:10 TBS', fnRet: 'LY 5108', depRet: '22:25 TBS → 00:05 TLV', slot: 'Evening Out / Late Night Back', ppUsd: 310, trolleyPpUsd: 0 },
-          { id: 'tbs-f3', airline: '6H', carrierName: 'Israir', fnOut: '6H 895', depOut: '09:30 TLV → 13:00 TBS', fnRet: '6H 896', depRet: '14:15 TBS → 15:55 TLV', slot: 'Best Value Morning / Afternoon', ppUsd: 245, trolleyPpUsd: 40 },
-          { id: 'tbs-f4', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 415', depOut: '11:20 TLV → 14:50 TBS', fnRet: 'IZ 416', depRet: '16:00 TBS → 17:40 TLV', slot: 'Midday Out / Late Afternoon Back', ppUsd: 255, trolleyPpUsd: 45 }
+          { id: 'tbs-f1', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5109', depOut: '07:15 TLV → 10:45 TBS', fnRet: 'LY 5110', depRet: '12:00 TBS → 13:40 TLV', slot: 'Morning Out / Midday Back', ppUsd: 255, trolleyPpUsd: 0 },
+          { id: 'tbs-f2', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5107', depOut: '17:40 TLV → 21:10 TBS', fnRet: 'LY 5108', depRet: '22:25 TBS → 00:05 TLV', slot: 'Evening Out / Late Night Back', ppUsd: 275, trolleyPpUsd: 0 },
+          { id: 'tbs-f3', airline: '6H', carrierName: 'Israir', fnOut: '6H 895', depOut: '09:30 TLV → 13:00 TBS', fnRet: '6H 896', depRet: '14:15 TBS → 15:55 TLV', slot: 'Best Value Morning / Afternoon', ppUsd: 205, trolleyPpUsd: 40 },
+          { id: 'tbs-f4', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 415', depOut: '11:20 TLV → 14:50 TBS', fnRet: 'IZ 416', depRet: '16:00 TBS → 17:40 TLV', slot: 'Midday Out / Late Afternoon Back', ppUsd: 215, trolleyPpUsd: 45 }
         ],
         hotels: [
-          { id: 'tbs-h1', name: 'Stamba Hotel', stars: 5, rating: 9.3, area: 'Vera District', room3: 'Aviator Signature Triple (52m²)', board: 'Room Only (+Breakfast avail.)', heatedPool: false, poolNote: 'World-famous design hotel & Cafe Stamba', total3Usd: 960 },
-          { id: 'tbs-h2', name: 'Swissôtel Tbilisi', stars: 5, rating: 9.1, area: 'Old Town / Freedom Sq.', room3: 'Swiss Advantage Triple Suite', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Heated indoor pool + Pürovel Spa & Sport', total3Usd: 870 },
-          { id: 'tbs-h3', name: 'Radisson Blu Iveria Hotel', stars: 5, rating: 8.5, area: 'Rustaveli Avenue', room3: 'Junior Suite Triple', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Rooftop indoor thermal pool & Anne Semonin Spa', total3Usd: 705 },
-          { id: 'tbs-h4', name: 'Rooms Hotel Tbilisi', stars: 4, rating: 8.9, area: 'Vera District', room3: 'Signature Terrace Triple', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Cult-favorite design hotel with fireplaces & bar', total3Usd: 630 },
-          { id: 'tbs-h5', name: 'Mercure Tbilisi Old Town', stars: 4, rating: 8.4, area: 'Old Town (By Sulfur Baths)', room3: 'Privilege Triple w/ Sofa Bed', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Steps from sulfur baths + sauna & hammam', total3Usd: 465 }
+          { id: 'tbs-h1', name: 'Paragraph Freedom Square, a Luxury Collection Hotel', stars: 5, rating: 9.3, area: 'Freedom Square Center', room3: 'Deluxe Triple / Junior Suite', board: 'Half Board (Breakfast & Ezo/Ostigan Dinner)', heatedPool: true, poolNote: 'Tbilisi’s #1 5★ + panoramic heated indoor pool & spa', total3Usd: 1260 },
+          { id: 'tbs-h2', name: 'The Biltmore Tbilisi Hotel', stars: 5, rating: 8.7, area: 'Rustaveli Avenue', room3: 'Deluxe Triple Sky View', board: 'Half Board (Breakfast & Sonnet/Xeme Dinner)', heatedPool: true, poolNote: 'Glass skyscraper w/ huge heated indoor pool & spa', total3Usd: 900 },
+          { id: 'tbs-h3', name: 'Sheraton Grand Tbilisi Metechi Palace', stars: 5, rating: 8.8, area: 'Avlabari / Old Town View', room3: 'Deluxe Triple Room', board: 'Half Board (Breakfast & Feast/ATI Rooftop Dinner)', heatedPool: true, poolNote: 'P’auza Spa heated indoor pool, sauna & panoramic dining', total3Usd: 885 },
+          { id: 'tbs-h4', name: 'Ambassadori Tbilisi Hotel', stars: 5, rating: 8.8, area: 'Old Town Riverbank', room3: 'Executive Triple / Suite', board: 'Half Board (Breakfast & Qartuli/ATRIUM Dinner)', heatedPool: true, poolNote: 'Italian-designed 5★ in Old Town + heated indoor pool', total3Usd: 840 },
+          { id: 'tbs-h5', name: 'Radisson Blu Iveria Hotel', stars: 5, rating: 8.5, area: 'Rustaveli Avenue', room3: 'Junior Suite Triple', board: 'Half Board (Breakfast & Filini/Umami Dinner)', heatedPool: true, poolNote: 'Rooftop indoor thermal pool & Anne Semonin Spa', total3Usd: 825 },
+          { id: 'tbs-h6', name: 'Mercure Tbilisi Old Town', stars: 4, rating: 8.4, area: 'Old Town (By Sulfur Baths)', room3: 'Privilege Triple w/ Sofa Bed', board: 'Half Board (Breakfast & ASADO Skybar Dinner)', heatedPool: true, poolNote: '100m from sulfur baths + sauna & hammam', total3Usd: 555 }
         ]
       },
       {
@@ -1207,23 +1224,26 @@
         flightDuration: '2h 40m',
         airlines: 'El Al (LY), Israir (6H), Arkia (IZ)',
         girlsRank: '#6 Girls’ Trip Pick (8.7/10)',
-        scores: '🧖‍♀️ Mega-Spas 9.5/10 (Millennium 4,000m²!) · 🚶‍♀️ Walkability 9.3/10 · 🛍️ Malls/Vitosha 8.8/10 · 🥐 Cafés 8.8/10',
-        vibe: 'Massive 4,000m² Millennium 5★ Spa, pedestrian Vitosha Blvd boutiques & snowy Vitosha mountain views',
+        scores: '🧖‍♀️ Mega-Spas 9.6/10 (Millennium 4,000m²!) · 🚶‍♀️ Walkability 9.3/10 · 🛍️ Malls/Vitosha 8.8/10 · 🍽️ Dining 9.0/10',
+        vibe: '4,000m² Millennium 5★ Spa + Half-Board panoramic dinners & pedestrian Vitosha Blvd shopping',
         comboDeals: [
-          { id: 'sof-d1', provider: 'Israir Packages', title: 'Grand Hotel Millennium 5★ (9.2) 4,000m² Spa Combo', stars: 5, includes: 'Direct Israir 6H 711/712 + 45m² Panoramic Triple + Breakfast + Millennium Spa Pool + 8kg Trolley & Transfers', total3Usd: 1287, save3Usd: 258 },
-          { id: 'sof-d2', provider: 'Eshet Tours', title: 'Rosslyn Thracia 4★ (9.0) Vitosha Blvd Deal', stars: 4, includes: 'Direct Arkia IZ 391/392 + Deluxe Triple on Vitosha Pedestrian St. + Breakfast + 8kg Trolley & Transfers', total3Usd: 1077, save3Usd: 258 },
-          { id: 'sof-d3', provider: 'Expedia Bundle', title: 'InterContinental Sofia 5★ (9.2) Flagship Bundle', stars: 5, includes: 'Direct El Al LY 551/552 (w/ 8kg Trolley) + Junior Suite Triple + Floret Breakfast & Wellness Spa', total3Usd: 1407, save3Usd: 183 }
+          { id: 'sof-d1', provider: 'Issta', title: 'Rosslyn Thracia 4★ (8.9) / Marinela 5★ (8.1) — Half Board Deal', stars: 4, includes: 'Direct Israir 6H 711/712 + Deluxe Triple on Vitosha Blvd + HALF BOARD (Breakfast & 3-Course Dinner) + 8kg Trolley & Transfers', total3Usd: 1215, save3Usd: 195 },
+          { id: 'sof-d2', provider: 'Gulliver', title: 'Maison Sofia MGallery 5★ (8.9) — Half Board & Indoor Pool Deal', stars: 5, includes: 'Direct Arkia IZ 391/392 + Deluxe Triple + HALF BOARD (Breakfast & Maison Brasserie Dinner) + Heated Indoor Pool + 8kg Trolley', total3Usd: 1305, save3Usd: 210 },
+          { id: 'sof-d3', provider: 'Expedia Bundle', title: 'Katarino Thermal Spa Resort 4★+ (9.2) — Mineral Pools HB Deal', stars: 4, includes: 'Direct El Al / Israir + Junior Suite Triple + HALF BOARD (Lavish Farm-to-Table Breakfast & Dinner Buffets) + 36°C Thermal Pools', total3Usd: 1440, save3Usd: 210 },
+          { id: 'sof-d4', provider: 'Eshet Tours', title: 'Grand Hotel Millennium 5★ (9.2) — 4,000m² Spa Half Board Combo', stars: 5, includes: 'Direct El Al LY 551/552 (w/ 8kg Trolley) + 45m² Panoramic Triple + HALF BOARD (Breakfast & Mediterra Dinner) + 4,000m² Spa Pool', total3Usd: 1605, save3Usd: 225 }
         ],
         flights: [
-          { id: 'sof-f1', airline: 'LY', carrierName: 'El Al', fnOut: 'LY 551', depOut: '07:30 TLV → 10:10 SOF', fnRet: 'LY 552', depRet: '11:15 SOF → 13:45 TLV', slot: 'Morning Out / Midday Back', ppUsd: 270, trolleyPpUsd: 0 },
-          { id: 'sof-f2', airline: '6H', carrierName: 'Israir', fnOut: '6H 711', depOut: '09:15 TLV → 11:55 SOF', fnRet: '6H 712', depRet: '13:00 SOF → 15:30 TLV', slot: 'Mid-Morning Out / Afternoon Back', ppUsd: 230, trolleyPpUsd: 40 },
-          { id: 'sof-f3', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 391', depOut: '13:30 TLV → 16:10 SOF', fnRet: 'IZ 392', depRet: '17:15 SOF → 19:45 TLV', slot: 'Afternoon Out / Evening Back', ppUsd: 235, trolleyPpUsd: 45 }
+          { id: 'sof-f1', airline: 'LY', carrierName: 'El Al', fnOut: 'LY 551', depOut: '07:30 TLV → 10:10 SOF', fnRet: 'LY 552', depRet: '11:15 SOF → 13:45 TLV', slot: 'Morning Out / Midday Back', ppUsd: 245, trolleyPpUsd: 0 },
+          { id: 'sof-f2', airline: '6H', carrierName: 'Israir', fnOut: '6H 711', depOut: '09:15 TLV → 11:55 SOF', fnRet: '6H 712', depRet: '13:00 SOF → 15:30 TLV', slot: 'Mid-Morning Out / Afternoon Back', ppUsd: 195, trolleyPpUsd: 40 },
+          { id: 'sof-f3', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 391', depOut: '13:30 TLV → 16:10 SOF', fnRet: 'IZ 392', depRet: '17:15 SOF → 19:45 TLV', slot: 'Afternoon Out / Evening Back', ppUsd: 205, trolleyPpUsd: 45 }
         ],
         hotels: [
-          { id: 'sof-h1', name: 'InterContinental Sofia', stars: 5, rating: 9.2, area: 'Narodno Sabranie Sq.', room3: 'Junior Suite / Premium Triple', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Cathedral views, wellness spa & Floret dining', total3Usd: 780 },
-          { id: 'sof-h2', name: 'Grand Hotel Millennium Sofia', stars: 5, rating: 9.2, area: 'NDK Park / Vitosha Blvd', room3: 'Panoramic Triple (45m²)', board: 'Bed & Breakfast', heatedPool: true, poolNote: '4,000m² Millennium Spa with indoor pool & hammam', total3Usd: 735 },
-          { id: 'sof-h3', name: 'Sense Hotel Sofia', stars: 5, rating: 8.8, area: 'Tsar Osvoboditel Blvd', room3: 'Deluxe Junior Suite (3 Adults)', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Boutique 5★ with stainless-steel indoor heated pool', total3Usd: 705 },
-          { id: 'sof-h4', name: 'Rosslyn Thracia Hotel Sofia', stars: 4, rating: 9.0, area: 'Vitosha Pedestrian Blvd', room3: 'Deluxe Triple / Junior Suite', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Superb 9.0 score right on Vitosha shopping street', total3Usd: 495 }
+          { id: 'sof-h1', name: 'Grand Hotel Millennium Sofia', stars: 5, rating: 9.2, area: 'NDK Park / Vitosha Blvd', room3: 'Panoramic Triple (45m²)', board: 'Half Board (Breakfast & Mediterra Dinner)', heatedPool: true, poolNote: '4,000m² Millennium Spa w/ huge indoor pool & hammam', total3Usd: 1020 },
+          { id: 'sof-h2', name: 'InterContinental Sofia', stars: 5, rating: 9.2, area: 'Narodno Sabranie Sq.', room3: 'Junior Suite / Premium Triple', board: 'Half Board (Breakfast & ADOR/Floret Dinner)', heatedPool: true, poolNote: 'Cathedral views, wellness spa & gourmet steak/dining', total3Usd: 975 },
+          { id: 'sof-h3', name: 'Katarino Spa Hotel (Thermal Mineral Resort)', stars: 4, rating: 9.2, area: 'Rila Mountain Foothills', room3: 'Junior Suite / Deluxe Triple', board: 'Half Board (Famous Farm-to-Table Breakfast & Dinner Buffets)', heatedPool: true, poolNote: '36°C indoor & outdoor natural mineral thermal pools', total3Usd: 870 },
+          { id: 'sof-h4', name: 'Maison Sofia - MGallery Collection', stars: 5, rating: 8.9, area: 'Lozenets Green District', room3: 'Deluxe Triple / Suite', board: 'Half Board (Breakfast & Maison Garden Dinner)', heatedPool: true, poolNote: 'Boutique 5★ with tranquil heated indoor pool & sauna', total3Usd: 735 },
+          { id: 'sof-h5', name: 'Hotel Marinela Sofia', stars: 5, rating: 8.1, area: 'Lozenets (By Metro)', room3: 'Deluxe Triple Room', board: 'Half Board (Breakfast & Panorama/Ambassador Dinner)', heatedPool: true, poolNote: 'Iconic Japanese garden + Sofia’s largest indoor hotel pool', total3Usd: 675 },
+          { id: 'sof-h6', name: 'Rosslyn Thracia Hotel Sofia', stars: 4, rating: 8.9, area: 'Vitosha Pedestrian Blvd', room3: 'Deluxe Triple / Junior Suite', board: 'Half Board (Breakfast & 3-Course Dinner)', heatedPool: false, poolNote: 'Superb 8.9 score right on Vitosha shopping street', total3Usd: 630 }
         ]
       },
       {
@@ -1239,27 +1259,27 @@
         flightDuration: '1h 05m',
         airlines: "El Al / Sun d'Or (LY), Israir (6H), Arkia (IZ)",
         girlsRank: '#7 Girls’ Trip Pick (8.5/10)',
-        scores: '🧖‍♀️ 5★ Resort Spas 9.3/10 · 🚶‍♀️ Safety/Ease 9.5/10 · 🥐 Seafront Cafés 8.4/10 · 🛍️ Kings Ave Mall 8.0/10',
-        vibe: '1h flight to palatial 5★ seafront resorts (Elysium, Annabelle, Alexander) with heated indoor pools & spas',
+        scores: '🧖‍♀️ 5★ Resort Spas 9.5/10 · 🍽️ Half-Board Plus (w/ Wine!) 9.8/10 · 🚶‍♀️ Ease 9.5/10 · 🛍️ Kings Mall 8.0/10',
+        vibe: 'Cyprus’s #1 Half-Board Plus & All-Inclusive resort hub—palatial 5★ indoor spas + wine-included dinners',
         comboDeals: [
-          { id: 'pfo-d1', provider: 'LastMinute / Flying Carpet', title: 'Elysium Hotel 5★ (9.2) Royal Spa Deal', stars: 5, includes: 'Direct Israir 6H 891/892 + Cyprian Maisonette Triple + Royal Breakfast + Heated Indoor Pool + Transfers & 8kg Trolley', total3Usd: 1377, save3Usd: 213 },
-          { id: 'pfo-d2', provider: 'Issta', title: 'Alexander The Great 4★ Sup (9.0) Seafront Deal', stars: 4, includes: 'Direct Arkia IZ 171/172 + Deluxe Sea-View Triple + Breakfast + Heated Hydro-Pool + 8kg Trolley & Transfers', total3Usd: 1077, save3Usd: 207 },
-          { id: 'pfo-d3', provider: 'Gulliver', title: 'Annabelle Hotel 5★ (8.8) Harbor Spa Bundle', stars: 5, includes: 'Direct Sun d\'Or / El Al LY 5121/5122 + Sea-View Triple Studio + Breakfast + Rooftop Indoor Pool + 8kg Trolley', total3Usd: 1347, save3Usd: 243 },
-          { id: 'pfo-d4', provider: 'Israir Packages', title: 'Leonardo Cypria Maris 4★ (8.4) Adults-Only Spa Deal', stars: 4, includes: 'Direct Israir 6H 891/892 + Deluxe Triple + Breakfast + Heated Indoor Pool + Transfers & 8kg Trolley', total3Usd: 957, save3Usd: 198 }
+          { id: 'pfo-d1', provider: 'Gulliver', title: 'Constantinou Bros Athena Beach 4★+ (8.9) — Half Board & Spa Deal', stars: 4, includes: 'Direct Arkia IZ 171/172 + Superior Triple + HALF BOARD (Breakfast & Atrium/Zephyr Dinner) + Heated Indoor Pool & Elixir Spa + 8kg Trolley', total3Usd: 1095, save3Usd: 195 },
+          { id: 'pfo-d2', provider: 'Israir Packages', title: 'Alexander The Great 4★+ (9.0) — HALF BOARD PLUS (Wine Included!)', stars: 4, includes: 'Direct Israir 6H 891/892 + Deluxe Sea-View Triple + HALF BOARD PLUS (Breakfast, 4-Restaurant Dine-Around Dinner + Bottle of Wine/Beer/Soft Drinks!) + Indoor Pool', total3Usd: 1170, save3Usd: 210 },
+          { id: 'pfo-d3', provider: 'Arkia Packages', title: 'Leonardo Plaza Cypria Maris 4★ Adults-Only (8.4) — All-Inclusive / HB', stars: 4, includes: 'Direct Arkia IZ 171/172 + Deluxe Triple + ALL-INCLUSIVE / HALF BOARD PLUS (Meals, Drinks & Snacks) + Heated Indoor Spa Pool + Trolley', total3Usd: 1185, save3Usd: 195 },
+          { id: 'pfo-d4', provider: 'LastMinute / Flying Carpet', title: 'Elysium 5★ (9.2) / Amavi 5★ (9.3) — Flagship Royal Half Board', stars: 5, includes: 'Direct Sun d\'Or / El Al LY 5121/5122 (w/ 8kg Trolley) + Cyprian Maisonette/Triple + HALF BOARD (Royal Breakfast & Dine-Around Dinner) + Heated Indoor Pool', total3Usd: 1410, save3Usd: 240 }
         ],
         flights: [
-          { id: 'pfo-f1', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5121', depOut: '08:30 TLV → 09:35 PFO', fnRet: 'LY 5122', depRet: '19:15 PFO → 20:15 TLV', slot: 'Max Weekend (Morning Out / Evening Back)', ppUsd: 210, trolleyPpUsd: 40 },
-          { id: 'pfo-f2', airline: '6H', carrierName: 'Israir', fnOut: '6H 891', depOut: '10:15 TLV → 11:20 PFO', fnRet: '6H 892', depRet: '17:30 PFO → 18:30 TLV', slot: 'Comfort Weekend (Late AM / Late PM)', ppUsd: 175, trolleyPpUsd: 40 },
-          { id: 'pfo-f3', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 171', depOut: '11:40 TLV → 12:45 PFO', fnRet: 'IZ 172', depRet: '18:45 PFO → 19:45 TLV', slot: 'Best Value Midday / Evening', ppUsd: 168, trolleyPpUsd: 40 },
-          { id: 'pfo-f4', airline: '6H', carrierName: "Sun d'Or / Israir", fnOut: '6H 893', depOut: '15:10 TLV → 16:15 PFO', fnRet: '6H 894', depRet: '20:30 PFO → 21:30 TLV', slot: 'Afternoon Out / Late Sunday Return', ppUsd: 185, trolleyPpUsd: 40 }
+          { id: 'pfo-f1', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5121', depOut: '08:30 TLV → 09:35 PFO', fnRet: 'LY 5122', depRet: '19:15 PFO → 20:15 TLV', slot: 'Max Weekend (Morning Out / Evening Back)', ppUsd: 195, trolleyPpUsd: 40 },
+          { id: 'pfo-f2', airline: '6H', carrierName: 'Israir', fnOut: '6H 891', depOut: '10:15 TLV → 11:20 PFO', fnRet: '6H 892', depRet: '17:30 PFO → 18:30 TLV', slot: 'Comfort Weekend (Late AM / Late PM)', ppUsd: 165, trolleyPpUsd: 40 },
+          { id: 'pfo-f3', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 171', depOut: '11:40 TLV → 12:45 PFO', fnRet: 'IZ 172', depRet: '18:45 PFO → 19:45 TLV', slot: 'Best Value Midday / Evening', ppUsd: 155, trolleyPpUsd: 40 },
+          { id: 'pfo-f4', airline: '6H', carrierName: "Sun d'Or / Israir", fnOut: '6H 893', depOut: '15:10 TLV → 16:15 PFO', fnRet: '6H 894', depRet: '20:30 PFO → 21:30 TLV', slot: 'Afternoon Out / Late Sunday Return', ppUsd: 175, trolleyPpUsd: 40 }
         ],
         hotels: [
-          { id: 'pfo-h1', name: 'Amavi, MadeForTwo Hotels', stars: 5, rating: 9.3, area: 'Kato Paphos Seafront', room3: '2 Rooms / Suite Allocation (3 Adults)', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Heated indoor pool + Evera Spa', total3Usd: 1080 },
-          { id: 'pfo-h2', name: 'Elysium Hotel', stars: 5, rating: 9.2, area: 'Tombs of the Kings Beach', room3: 'Cyprian Maisonette / Deluxe Triple', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Heated Royal Indoor Pool + Opium Health Spa', total3Usd: 945 },
-          { id: 'pfo-h3', name: 'Annabelle Hotel', stars: 5, rating: 8.8, area: 'Kato Paphos Harbor', room3: 'Sea View Triple / Studio Suite', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Rooftop heated indoor pool + Ouranos Spa', total3Usd: 840 },
-          { id: 'pfo-h4', name: 'Alexander The Great Beach Hotel', stars: 4, rating: 9.0, area: 'Kato Paphos Beachfront', room3: 'Deluxe Triple Sea View', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Heated indoor hydro-jet pool + Serenity Spa', total3Usd: 660 },
-          { id: 'pfo-h5', name: 'Leonardo Plaza Cypria Maris Beach & Spa', stars: 4, rating: 8.4, area: 'Paphos Seafront', room3: 'Deluxe Triple Room', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Large heated indoor pool + thalassotherapy spa', total3Usd: 540 },
-          { id: 'pfo-h6', name: 'Amphora Hotel & Suites', stars: 4, rating: 8.5, area: 'Seafront (Castle View)', room3: '1-Bedroom Sea View Suite (3 Adults)', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Huge sea-view suite for 3 friends, sauna & gym', total3Usd: 450 }
+          { id: 'pfo-h1', name: 'Amavi, MadeForTwo Hotels', stars: 5, rating: 9.3, area: 'Kato Paphos Seafront', room3: 'Deluxe Sea View Triple / 2-Room Allocation', board: 'Half Board Premium (Breakfast & 4-Restaurant Dine-Around)', heatedPool: true, poolNote: 'Heated indoor pool + Evera Spa luxury', total3Usd: 1080 },
+          { id: 'pfo-h2', name: 'Elysium Hotel', stars: 5, rating: 9.2, area: 'Tombs of the Kings Beach', room3: 'Cyprian Maisonette / Deluxe Triple', board: 'Half Board (Royal Breakfast & Epicurean Dinner)', heatedPool: true, poolNote: 'Heated Royal Indoor Pool + Opium Health Spa', total3Usd: 1020 },
+          { id: 'pfo-h3', name: 'Annabelle Hotel', stars: 5, rating: 8.8, area: 'Kato Paphos Harbor', room3: 'Sea View Triple / Studio Suite', board: 'Half Board (Breakfast & Fontana/Amorosa Dinner)', heatedPool: true, poolNote: 'Rooftop heated indoor pool + Ouranos Spa', total3Usd: 855 },
+          { id: 'pfo-h4', name: 'Alexander The Great Beach Hotel', stars: 4, rating: 9.0, area: 'Kato Paphos Beachfront', room3: 'Deluxe Triple Sea View', board: 'HALF BOARD PLUS (Breakfast, Dinner + Wine, Beer & Drinks!)', heatedPool: true, poolNote: 'Heated indoor hydro-jet pool + Serenity Spa', total3Usd: 795 },
+          { id: 'pfo-h5', name: 'Constantinou Bros Athena Beach Hotel', stars: 4, rating: 8.9, area: 'Kato Paphos Beachfront', room3: 'Superior Triple Sea/Garden View', board: 'Half Board (or Oasis All-Inclusive Upgrade)', heatedPool: true, poolNote: 'Heated indoor pool, jacuzzi, sauna & Elixir Spa', total3Usd: 735 },
+          { id: 'pfo-h6', name: 'Leonardo Plaza Cypria Maris Beach Hotel & Spa (Adults Only)', stars: 4, rating: 8.4, area: 'Paphos Seafront', room3: 'Deluxe Triple Room (Adults 16+)', board: 'Half Board / All-Inclusive (Breakfast & Mare Buffet Dinner)', heatedPool: true, poolNote: 'Adults-Only (16+) + heated indoor pool & thalasso spa', total3Usd: 645 }
         ]
       },
       {
@@ -1275,28 +1295,28 @@
         flightDuration: '1h 00m',
         airlines: 'El Al (LY), Israir (6H), Arkia (IZ)',
         girlsRank: '#8 Girls’ Trip Pick (8.3/10)',
-        scores: '🚶‍♀️ Ease/Transfer 9.6/10 (10m taxi!) · 🥐 Seaside Cafés 8.6/10 · 🧖‍♀️ Spas 8.4/10 · 🛍️ Metropolis Mall 8.2/10',
-        vibe: 'Fastest door-to-door abroad trip (1h flight + 10m transfer), Mackenzie Beach bars, St. Lazarus cafés & Metropolis Mall',
+        scores: '🚶‍♀️ Ease/Transfer 9.6/10 (10m taxi!) · 🥐 Seaside HB Dining 8.8/10 · 🧖‍♀️ Spas 8.6/10 · 🛍️ Metropolis Mall 8.2/10',
+        vibe: 'Fastest door-to-door abroad trip (1h flight + 10m transfer), seafront Half-Board resorts & Metropolis Mall',
         comboDeals: [
-          { id: 'lca-d1', provider: 'Israir Packages', title: 'Radisson Blu Larnaca 5★ (8.6) Junior Suite Combo', stars: 5, includes: 'Direct Israir 6H 881/886 + 49m² Junior Suite (3 Adults) + Breakfast + Thermal Spa + 8kg Trolley & Transfers', total3Usd: 1137, save3Usd: 183 },
-          { id: 'lca-d2', provider: 'Expedia Bundle', title: 'Hotel Indigo by IHG 4★ (9.0) Boutique Suite Bundle', stars: 4, includes: 'Direct El Al / Sun d\'Or LY 5131/5136 + King Suite (3 Adults) + Breakfast + 8kg Trolley', total3Usd: 1155, save3Usd: 165 },
-          { id: 'lca-d3', provider: 'Arkia Packages', title: 'Leonardo Boutique Larnaca 4★ (8.5) Spa Package', stars: 4, includes: 'Direct Arkia IZ 161/166 + Deluxe Triple Room + Breakfast + Aegeo Spa + 8kg Trolley', total3Usd: 915, save3Usd: 165 },
-          { id: 'lca-d4', provider: 'Eshet Tours', title: 'Lordos Beach & Spa 4★ (8.4) Indoor Pool Deal', stars: 4, includes: 'Direct Israir 6H 881/886 + Side Sea View Triple + Breakfast + Heated Indoor Pool + Transfers', total3Usd: 897, save3Usd: 153 }
+          { id: 'lca-d1', provider: 'Issta', title: 'Sun Hall Hotel 4★ (8.3) — Finikoudes Promenade Half Board Deal', stars: 4, includes: 'Direct Arkia IZ 161/166 + Sea-View Triple + HALF BOARD (Breakfast & Kition Seafront Dinner) + 8kg Trolley', total3Usd: 1050, save3Usd: 165 },
+          { id: 'lca-d2', provider: 'Gulliver', title: 'Lordos Beach Hotel & Spa 4★ (8.4) — Half Board & Indoor Pool', stars: 4, includes: 'Direct Israir 6H 881/886 + Side Sea View Triple + HALF BOARD (Breakfast & Atlantis Buffet Dinner) + Heated Indoor Pool + Transfers', total3Usd: 1065, save3Usd: 180 },
+          { id: 'lca-d3', provider: 'Israir Packages', title: 'Golden Bay Beach Hotel 5★ (8.7) — 5★ Half Board & Indoor Spa Pool', stars: 5, includes: 'Direct Israir 6H 881/886 + Mini Suite Triple + HALF BOARD (Breakfast & Yacht Club Dinner) + Heated Indoor Pool + 8kg Trolley & Transfers', total3Usd: 1155, save3Usd: 210 },
+          { id: 'lca-d4', provider: 'Arkia Packages', title: 'Radisson Blu 5★ (8.6) / Radisson Beach 5★ (8.5) — Suite HB Combo', stars: 5, includes: 'Direct El Al / Arkia + Junior Suite Triple + HALF BOARD (Breakfast & Maestralia / Waves Dinner) + Spa & Indoor Pool + 8kg Trolley', total3Usd: 1215, save3Usd: 225 }
         ],
         flights: [
-          { id: 'lca-f1', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5131', depOut: '07:15 TLV → 08:15 LCA', fnRet: 'LY 5136', depRet: '21:30 LCA → 22:25 TLV', slot: 'Max 4 Full Days (Early AM / Late Sun PM)', ppUsd: 195, trolleyPpUsd: 40 },
-          { id: 'lca-f2', airline: '6H', carrierName: 'Israir', fnOut: '6H 881', depOut: '08:00 TLV → 09:00 LCA', fnRet: '6H 886', depRet: '20:15 LCA → 21:10 TLV', slot: 'Full Weekend (Morning Out / Evening Back)', ppUsd: 165, trolleyPpUsd: 40 },
-          { id: 'lca-f3', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 161', depOut: '09:30 TLV → 10:30 LCA', fnRet: 'IZ 166', depRet: '19:45 LCA → 20:40 TLV', slot: 'Best Value (Late Morning / Evening)', ppUsd: 155, trolleyPpUsd: 40 },
-          { id: 'lca-f4', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5135', depOut: '13:20 TLV → 14:20 LCA', fnRet: 'LY 5132', depRet: '15:35 LCA → 16:30 TLV', slot: 'Relaxed Midday Rotation', ppUsd: 180, trolleyPpUsd: 40 },
-          { id: 'lca-f5', airline: '6H', carrierName: 'Israir / Arkia', fnOut: '6H 885', depOut: '18:15 TLV → 19:15 LCA', fnRet: '6H 886', depRet: '20:15 LCA → 21:10 TLV', slot: 'After-Work Thu Evening Departure', ppUsd: 170, trolleyPpUsd: 40 }
+          { id: 'lca-f1', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5131', depOut: '07:15 TLV → 08:15 LCA', fnRet: 'LY 5136', depRet: '21:30 LCA → 22:25 TLV', slot: 'Max 4 Full Days (Early AM / Late Sun PM)', ppUsd: 185, trolleyPpUsd: 40 },
+          { id: 'lca-f2', airline: '6H', carrierName: 'Israir', fnOut: '6H 881', depOut: '08:00 TLV → 09:00 LCA', fnRet: '6H 886', depRet: '20:15 LCA → 21:10 TLV', slot: 'Full Weekend (Morning Out / Evening Back)', ppUsd: 160, trolleyPpUsd: 40 },
+          { id: 'lca-f3', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 161', depOut: '09:30 TLV → 10:30 LCA', fnRet: 'IZ 166', depRet: '19:45 LCA → 20:40 TLV', slot: 'Best Value (Late Morning / Evening)', ppUsd: 150, trolleyPpUsd: 40 },
+          { id: 'lca-f4', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5135', depOut: '13:20 TLV → 14:20 LCA', fnRet: 'LY 5132', depRet: '15:35 LCA → 16:30 TLV', slot: 'Relaxed Midday Rotation', ppUsd: 170, trolleyPpUsd: 40 },
+          { id: 'lca-f5', airline: '6H', carrierName: 'Israir / Arkia', fnOut: '6H 885', depOut: '18:15 TLV → 19:15 LCA', fnRet: '6H 886', depRet: '20:15 LCA → 21:10 TLV', slot: 'After-Work Thu Evening Departure', ppUsd: 165, trolleyPpUsd: 40 }
         ],
         hotels: [
-          { id: 'lca-h1', name: 'Radisson Blu Hotel, Larnaca', stars: 5, rating: 8.6, area: 'New Marina / Harbor', room3: 'Junior Suite (49m² · 3 Adults)', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Full thermal spa (sauna, steam, indoor zone)', total3Usd: 705 },
-          { id: 'lca-h2', name: 'The Ciao Stelio Deluxe Hotel', stars: 5, rating: 8.8, area: 'Mackenzie Beachfront', room3: 'Executive Junior Suite Triple', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Adults-only beachfront boutique & dining', total3Usd: 660 },
-          { id: 'lca-h3', name: 'Hotel Indigo Larnaca by IHG', stars: 4, rating: 9.0, area: 'St. Lazarus Historic Quarter', room3: 'King Suite w/ Sofa Bed (3 Adults)', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Adults-only boutique design hotel & wine bar', total3Usd: 615 },
-          { id: 'lca-h4', name: 'Lordos Beach Hotel & Spa', stars: 4, rating: 8.4, area: 'Dhekelia Bay Beachfront', room3: 'Side Sea View Triple Room', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Heated indoor pool, jacuzzi & Sirene Spa', total3Usd: 510 },
-          { id: 'lca-h5', name: 'Leonardo Boutique Hotel Larnaca', stars: 4, rating: 8.5, area: 'Central (300m to Finikoudes)', room3: 'Deluxe Triple / Junior Suite', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Aegeo Spa Center (sauna & massage treatments)', total3Usd: 495 },
-          { id: 'lca-h6', name: 'Sun Hall Hotel', stars: 4, rating: 8.3, area: 'Finikoudes Promenade', room3: 'Promenade Sea View Triple', board: 'Bed & Breakfast', heatedPool: false, poolNote: 'Prime central promenade location & sea views', total3Usd: 480 }
+          { id: 'lca-h1', name: 'Radisson Blu Hotel, Larnaca', stars: 5, rating: 8.6, area: 'New Marina / Harbor', room3: 'Junior Suite (49m² · 3 Adults)', board: 'Half Board (Breakfast & Maestralia Harbor Dinner)', heatedPool: true, poolNote: 'Full thermal spa (sauna, steam, massage suites)', total3Usd: 870 },
+          { id: 'lca-h2', name: 'Radisson Beach Resort Larnaca', stars: 5, rating: 8.5, area: 'Dhekelia Beachfront', room3: 'Deluxe Sea View Triple / Suite', board: 'Half Board (Breakfast & Crown/Waves Beach Dinner)', heatedPool: true, poolNote: 'Brand-new 5★ resort + heated indoor spa pool & sauna', total3Usd: 795 },
+          { id: 'lca-h3', name: 'Golden Bay Beach Hotel', stars: 5, rating: 8.7, area: 'Dhekelia Bay Beachfront', room3: 'Mini Suite / Deluxe Triple', board: 'Half Board (Breakfast & Yacht Club Dinner)', heatedPool: true, poolNote: 'Heated indoor pool, jacuzzi, sauna & full resort spa', total3Usd: 780 },
+          { id: 'lca-h4', name: 'Lordos Beach Hotel & Spa', stars: 4, rating: 8.4, area: 'Dhekelia Bay Beachfront', room3: 'Side Sea View Triple Room', board: 'Half Board (Breakfast & Atlantis Buffet Dinner)', heatedPool: true, poolNote: 'Heated indoor pool, jacuzzi & Sirene Spa', total3Usd: 645 },
+          { id: 'lca-h5', name: 'Sun Hall Hotel', stars: 4, rating: 8.3, area: 'Finikoudes Promenade', room3: 'Promenade Sea View Triple', board: 'Half Board (Breakfast & Kition Seafront Dinner)', heatedPool: false, poolNote: 'Prime central Finikoudes promenade location & sea views', total3Usd: 630 },
+          { id: 'lca-h6', name: 'E Hotel Spa & Resort Cyprus', stars: 4, rating: 8.2, area: 'Pervolia Secluded Beach', room3: 'Deluxe Triple Spa Room', board: 'Half Board (Breakfast & Franke Eco-Gourmet Dinner)', heatedPool: true, poolNote: 'Boutique eco-spa resort w/ hydro-massage & hammam', total3Usd: 600 }
         ]
       },
       {
@@ -1312,28 +1332,31 @@
         flightDuration: '2h 25m',
         airlines: "Israir (6H), El Al / Sun d'Or (LY), Arkia (IZ)",
         girlsRank: '#9 Girls’ Trip Pick (7.9/10)',
-        scores: '🧖‍♀️ 5★ Hotel Spas 8.6/10 · 🚶‍♀️ Promenade 8.8/10 · 🍷 Sky Bars/Casinos 8.2/10 · 🛍️ Shopping 7.5/10',
-        vibe: 'Lowest 5★ international brand hotel prices ($55/pp/night at Hilton & Sheraton) with indoor heated pools & sky bars',
+        scores: '🧖‍♀️ 5★ Hotel Spas 8.8/10 · 🍽️ 5★ Half-Board Value 9.5/10 · 🍷 Sky Bars/Casinos 8.2/10 · 🛍️ Shopping 7.5/10',
+        vibe: 'Lowest 5★ Half-Board & All-Inclusive rates ($57–$82/pp/night w/ Breakfast & Dinner at 5★ spa resorts)',
         comboDeals: [
-          { id: 'bus-d1', provider: 'LastMinute / Flying Carpet', title: 'Hilton Batumi 5★ (8.6) Eforea Spa Deal', stars: 5, includes: 'Direct Israir 6H 893/894 + Deluxe Triple + Breakfast + Eforea Heated Indoor Pool + 8kg Trolley & Transfers', total3Usd: 1137, save3Usd: 273 },
-          { id: 'bus-d2', provider: 'Israir Packages', title: 'Sheraton Batumi 5★ (8.3) Shine Spa & Hammam Deal', stars: 5, includes: 'Direct Israir 6H 893/894 + 42m² Deluxe Triple + Breakfast + Heated Indoor Pool + 8kg Trolley & Transfers', total3Usd: 1077, save3Usd: 288 },
-          { id: 'bus-d3', provider: 'Eshet Tours', title: 'Courtyard by Marriott 4★+ (8.5) Seafront Combo', stars: 4, includes: 'Direct Arkia IZ 411/412 + Larger Sea-View Triple + Breakfast + Heated Indoor Pool + 8kg Trolley & Transfers', total3Usd: 1107, save3Usd: 288 }
+          { id: 'bus-d1', provider: 'Gulliver', title: 'Euphoria Batumi 5★ (8.2) — Half Board / All-Inclusive Spa Deal', stars: 5, includes: 'Direct Israir 6H 893/894 + Deluxe Sea-View Triple + HALF BOARD / ALL-INCLUSIVE + Huge Heated Indoor Pool + Transfers & 8kg Trolley', total3Usd: 1035, save3Usd: 195 },
+          { id: 'bus-d2', provider: 'Israir Packages', title: 'JRW Welmond Hotel & Casino 5★ (8.4) — Turkish Hammam HB Deal', stars: 5, includes: 'Direct Israir 6H 893/894 + 45m² Superior Triple + HALF BOARD (Breakfast & Bellissimo Buffet Dinner) + Turkish Hammam & Indoor Pool + Transfers', total3Usd: 1065, save3Usd: 195 },
+          { id: 'bus-d3', provider: 'LastMinute / Flying Carpet', title: 'Sheraton Batumi 5★ (8.3) / Courtyard Marriott 4★+ (8.5) — HB Deal', stars: 5, includes: 'Direct Arkia IZ 411/412 + Deluxe Triple + HALF BOARD (Breakfast & 360° Sky / Eclipse Dinner) + Heated Indoor Pool + Transfers & 8kg Trolley', total3Usd: 1230, save3Usd: 210 },
+          { id: 'bus-d4', provider: 'Eshet Tours', title: 'Hilton Batumi 5★ (8.6) — Eforea Spa Half Board Combo', stars: 5, includes: 'Direct Sun d\'Or / Israir + Deluxe Triple + HALF BOARD (Breakfast & Pelion Dinner) + Eforea Heated Indoor Pool + Transfers & 8kg Trolley', total3Usd: 1290, save3Usd: 225 }
         ],
         flights: [
-          { id: 'bus-f1', airline: '6H', carrierName: 'Israir', fnOut: '6H 893', depOut: '08:45 TLV → 12:10 BUS', fnRet: '6H 894', depRet: '13:15 BUS → 14:50 TLV', slot: 'Morning Out / Afternoon Back', ppUsd: 250, trolleyPpUsd: 40 },
-          { id: 'bus-f2', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 411', depOut: '12:00 TLV → 15:25 BUS', fnRet: 'IZ 412', depRet: '16:30 BUS → 18:05 TLV', slot: 'Midday Out / Early Evening Back', ppUsd: 260, trolleyPpUsd: 45 },
-          { id: 'bus-f3', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5101', depOut: '10:30 TLV → 13:55 BUS', fnRet: 'LY 5102', depRet: '15:05 BUS → 16:40 TLV', slot: 'Mid-Morning Out / Afternoon Back', ppUsd: 280, trolleyPpUsd: 0 }
+          { id: 'bus-f1', airline: '6H', carrierName: 'Israir', fnOut: '6H 893', depOut: '08:45 TLV → 12:10 BUS', fnRet: '6H 894', depRet: '13:15 BUS → 14:50 TLV', slot: 'Morning Out / Afternoon Back', ppUsd: 190, trolleyPpUsd: 40 },
+          { id: 'bus-f2', airline: 'IZ', carrierName: 'Arkia', fnOut: 'IZ 411', depOut: '12:00 TLV → 15:25 BUS', fnRet: 'IZ 412', depRet: '16:30 BUS → 18:05 TLV', slot: 'Midday Out / Early Evening Back', ppUsd: 200, trolleyPpUsd: 45 },
+          { id: 'bus-f3', airline: 'LY', carrierName: "El Al / Sun d'Or", fnOut: 'LY 5101', depOut: '10:30 TLV → 13:55 BUS', fnRet: 'LY 5102', depRet: '15:05 BUS → 16:40 TLV', slot: 'Mid-Morning Out / Afternoon Back', ppUsd: 215, trolleyPpUsd: 0 }
         ],
         hotels: [
-          { id: 'bus-h1', name: 'Hilton Batumi', stars: 5, rating: 8.6, area: 'Seafront / 6 May Park', room3: 'Deluxe Triple / Family Room', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Eforea Spa with heated indoor pool & Nephele Sky Bar', total3Usd: 540 },
-          { id: 'bus-h2', name: 'Sheraton Batumi Hotel', stars: 5, rating: 8.3, area: 'Batumi Boulevard', room3: 'Deluxe Triple Room (42m²)', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Shine Spa heated indoor pool, hammam & casino', total3Usd: 495 },
-          { id: 'bus-h3', name: 'Courtyard by Marriott Batumi', stars: 4, rating: 8.5, area: 'First Coastline Boulevard', room3: 'Larger Guest Triple Sea View', board: 'Bed & Breakfast', heatedPool: true, poolNote: 'Modern sea-view rooms + heated indoor pool & spa', total3Usd: 480 }
+          { id: 'bus-h1', name: 'Hilton Batumi', stars: 5, rating: 8.6, area: 'Seafront / 6 May Park', room3: 'Deluxe Triple / Family Room', board: 'Half Board (Breakfast & Pelion Dinner)', heatedPool: true, poolNote: 'Eforea Spa with heated indoor pool & Nephele Sky Bar', total3Usd: 735 },
+          { id: 'bus-h2', name: 'Sheraton Batumi Hotel', stars: 5, rating: 8.3, area: 'Batumi Boulevard', room3: 'Deluxe Triple Room (42m²)', board: 'Half Board (Breakfast & Sunflower/Sky Dinner)', heatedPool: true, poolNote: 'Shine Spa heated indoor pool, hammam & casino', total3Usd: 690 },
+          { id: 'bus-h3', name: 'Courtyard by Marriott Batumi', stars: 4, rating: 8.5, area: 'First Coastline Boulevard', room3: 'Larger Guest Triple Sea View', board: 'Half Board (Breakfast & Eclipse Dinner)', heatedPool: true, poolNote: 'Modern sea-view rooms + heated indoor pool & spa', total3Usd: 660 },
+          { id: 'bus-h4', name: 'JRW Welmond Hotel & Casino', stars: 5, rating: 8.4, area: 'Marina / Cable Car Port', room3: 'Superior Triple Sea View (45m²)', board: 'Half Board (Breakfast & Bellissimo Buffet Dinner)', heatedPool: true, poolNote: 'Huge Turkish Hammam spa, heated indoor pool & casino', total3Usd: 540 },
+          { id: 'bus-h5', name: 'Euphoria Batumi Convention & Casino Hotel', stars: 5, rating: 8.2, area: 'New Boulevard Seafront', room3: 'Deluxe Triple Sea View', board: 'Half Board / All-Inclusive (Breakfast & Buffet Dinner)', heatedPool: true, poolNote: 'Lowest 5★ Half-Board rate ($57/pp/night!) + indoor pool', total3Usd: 510 }
         ]
       }
     ];
 
     let selectedCity = CITIES[0];
-    let selectedDeal = CITIES[0].comboDeals[0]; // null if DIY mode active
+    let selectedDeal = CITIES[0].comboDeals[0];
     let selectedFlight = CITIES[0].flights[2];
     let selectedHotel = CITIES[0].hotels[1];
 
@@ -1344,7 +1367,8 @@
 
     function buildBookingUrl(city, hotelName) {
       const ss = encodeURIComponent(`${hotelName} ${city.cityQuery}`);
-      return `https://www.booking.com/searchresults.html?ss=${ss}&checkin=${city.checkin}&checkout=${city.checkout}&group_adults=3&no_rooms=1`;
+      // nflt=mealplan%3D9 filters Booking.com specifically for Half Board (Breakfast & Dinner included)
+      return `https://www.booking.com/searchresults.html?ss=${ss}&checkin=${city.checkin}&checkout=${city.checkout}&group_adults=3&no_rooms=1&nflt=mealplan%3D9`;
     }
 
     function buildExpediaComboUrl(city) {
@@ -1422,10 +1446,10 @@
               <div style="font-size:0.78rem; color:#f0abfc; font-weight:600;">${c.scores}</div>
               <span class="price-sub">${c.vibe}</span>
             </td>
-            <td data-label="🔥 Best 4★ Combo"><span class="price-strong" style="color:var(--emerald)">${fmtMoney(scale3(best4Deal3))}</span></td>
-            <td data-label="🔥 Best 5★ Combo"><span class="price-strong" style="color:var(--accent)">${fmtMoney(scale3(best5Deal3))}</span></td>
-            <td data-label="DIY Separate">${fmtMoneyInline(scale3(diy4Total3))} / ${fmtMoneyInline(scale3(diy5Total3))}</td>
-            <td data-label="Action"><span class="btn-link">Deals & Hotels ↓</span></td>
+            <td data-label="🍽️ Best 4★ HB Combo"><span class="price-strong" style="color:var(--emerald)">${fmtMoney(scale3(best4Deal3))}</span></td>
+            <td data-label="🍽️ Best 5★ HB Combo"><span class="price-strong" style="color:var(--accent)">${fmtMoney(scale3(best5Deal3))}</span></td>
+            <td data-label="DIY Half-Board">${fmtMoneyInline(scale3(diy4Total3))} / ${fmtMoneyInline(scale3(diy5Total3))}</td>
+            <td data-label="Action"><span class="btn-link">HB Deals ↓</span></td>
           </tr>
         `;
       }).join('');
@@ -1463,11 +1487,11 @@
                   <span class="deal-savings">Saves ${fmtMoneyInline(scale3(d.save3Usd))}</span>
                 </div>
                 <div class="deal-title">${d.title}</div>
-                <div class="deal-includes" style="margin-top:6px;">✔ ${d.includes}</div>
+                <div class="deal-includes" style="margin-top:6px;">🍽️ ${d.includes}</div>
               </div>
               <div class="deal-bottom">
                 <div class="deal-price-box">
-                  <div class="lbl">${currentOccupants === 'person' ? 'Combo Price / Friend (÷3)' : 'Combo Total (3 Friends)'}</div>
+                  <div class="lbl">${currentOccupants === 'person' ? 'Half-Board Combo / Friend (÷3)' : 'Half-Board Combo Total (3 Friends)'}</div>
                   <div class="val">${fmtMoneyInline(scale3(d.total3Usd))}</div>
                 </div>
                 <div class="action-links" onclick="event.stopPropagation()">
@@ -1528,12 +1552,12 @@
               <td data-label="Category"><span class="stars">${'★'.repeat(h.stars)}</span> (${h.stars}★)</td>
               <td data-label="Guest Score"><span class="rating-chip">★ ${h.rating.toFixed(1)} / 10</span></td>
               <td data-label="Location">${h.area}</td>
-              <td data-label="Board">${h.board}</td>
-              <td data-label="Per Night">${fmtMoney(nightlyScaled)}</td>
-              <td data-label="${c.nights}-Night (${currentOccupants === 'person' ? '÷3' : '3 Friends'})"><span class="price-strong">${fmtMoney(totalScaled)}</span></td>
-              <td data-label="Book Room (3 Adults)">
+              <td data-label="Meals Included"><span class="hb-badge">🍽️ ${h.board}</span></td>
+              <td data-label="Per Night (HB)">${fmtMoney(nightlyScaled)}</td>
+              <td data-label="${c.nights}-Night HB (${currentOccupants === 'person' ? '÷3' : '3 Friends'})"><span class="price-strong">${fmtMoney(totalScaled)}</span></td>
+              <td data-label="Book Half Board">
                 <div class="action-links" onclick="event.stopPropagation()">
-                  <a class="btn-link booking" href="${bookingUrl}" target="_blank" rel="noopener">Booking.com (3 Adults) ↗</a>
+                  <a class="btn-link booking" href="${bookingUrl}" target="_blank" rel="noopener">Booking.com (HB · 3 Adults) ↗</a>
                 </div>
               </td>
             </tr>
@@ -1553,7 +1577,7 @@
               </div>
               <div class="dest-quick-stats">
                 <div class="stat-box">
-                  <div class="label">Best Combo Deal (${currentOccupants === 'person' ? 'Per Friend' : 'All 3 Friends'})</div>
+                  <div class="label">Best Half-Board Combo (${currentOccupants === 'person' ? 'Per Friend' : 'All 3 Friends'})</div>
                   <div class="val">${fmtMoneyInline(scale3(lowestDeal3))}</div>
                 </div>
               </div>
@@ -1562,8 +1586,8 @@
             <div class="dest-body">
               <div class="sub-block">
                 <h3>
-                  <span>🔥 Flight + Hotel Combo Deals ("חבילות נופש" for 3 Friends — Tap to Select)</span>
-                  <span class="hint">Includes Direct Flight + Triple Room/Suite + Trolley/Transfers</span>
+                  <span>🔥 Half-Board Flight + Hotel Combo Deals ("חבילות חצי פנסיון" for 3 Friends — Tap to Select)</span>
+                  <span class="hint">Includes Direct Flight + Triple/Suite + Breakfast & Dinner + Trolley/Transfers</span>
                 </h3>
                 <div class="deals-grid">
                   ${dealsHtml || '<div style="color:var(--text-muted)">No combo deals match current star filter.</div>'}
@@ -1572,8 +1596,8 @@
 
               <div class="sub-block">
                 <h3>
-                  <span>✈️ Direct Israeli Airline Flights (Or Build DIY Package Below)</span>
-                  <span class="hint">Tap any flight row + hotel row to calculate DIY price</span>
+                  <span>✈️ Direct Israeli Airline Flights (Or Build DIY Half-Board Package Below)</span>
+                  <span class="hint">Tap any flight row + hotel row to calculate DIY Half-Board price</span>
                 </h3>
                 <table>
                   <thead>
@@ -1593,8 +1617,8 @@
 
               <div class="sub-block">
                 <h3>
-                  <span>🏨 Curated 4★ & 5★ Hotels — Triple Room / Junior Suite for 3 Friends (Score ≥ 8.0)</span>
-                  <span class="hint">Sharing 1 Triple/Suite saves 10–14% per person!</span>
+                  <span>🍽️ Curated 4★ & 5★ Half-Board Hotels — Breakfast & Dinner Included (Score ≥ 8.0)</span>
+                  <span class="hint">Triple Room / Junior Suite for 3 Friends · All Include Breakfast & Dinner!</span>
                 </h3>
                 <table>
                   <thead>
@@ -1603,10 +1627,10 @@
                       <th>Stars</th>
                       <th>Score</th>
                       <th>Location</th>
-                      <th>Board</th>
-                      <th>Nightly</th>
-                      <th>${c.nights}-Night (${currentOccupants === 'person' ? 'Per Friend ÷3' : '3 Friends Total'})</th>
-                      <th>Direct Link (3 Adults)</th>
+                      <th>Board (Breakfast + Dinner)</th>
+                      <th>Nightly (HB)</th>
+                      <th>${c.nights}-Night HB (${currentOccupants === 'person' ? 'Per Friend ÷3' : '3 Friends Total'})</th>
+                      <th>Direct Link (3 Adults HB)</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -1654,14 +1678,14 @@
 
     function updateStickyBar() {
       const modeLbl = currentOccupants === 'person'
-        ? 'Total Per Person (Each of 3 Friends)'
-        : 'Grand Total for All 3 Friends';
+        ? 'Half-Board Total Per Person (÷3)'
+        : 'Half-Board Total for All 3 Friends';
 
       if (selectedDeal) {
         const finalUsd = scale3(selectedDeal.total3Usd);
-        document.getElementById('slot-1-title').textContent = `🔥 Combo Deal (${selectedDeal.provider})`;
+        document.getElementById('slot-1-title').textContent = `🔥 Half-Board Combo (${selectedDeal.provider})`;
         document.getElementById('selected-flight-label').textContent = selectedDeal.title;
-        document.getElementById('slot-2-title').textContent = '🎁 What’s Bundled';
+        document.getElementById('slot-2-title').textContent = '🍽️ Bundled (Breakfast & Dinner)';
         document.getElementById('selected-hotel-label').textContent = selectedDeal.includes;
         document.getElementById('bag-label-text').textContent = '8kg Trolley Bundled ✔';
         document.getElementById('pkg-mode-label').textContent = `${modeLbl} · Saves ${fmtMoneyInline(scale3(selectedDeal.save3Usd))}`;
@@ -1679,9 +1703,9 @@
         document.getElementById('slot-1-title').textContent = '✈️ DIY Direct Flight';
         document.getElementById('selected-flight-label').textContent =
           `${selectedFlight.carrierName} ${selectedFlight.fnOut}/${selectedFlight.fnRet} (${fmtMoneyInline(scale3(flight3Usd))})`;
-        document.getElementById('slot-2-title').textContent = '🏨 DIY Triple Room (3 Friends)';
+        document.getElementById('slot-2-title').textContent = '🍽️ DIY Half-Board Room (3 Friends)';
         document.getElementById('selected-hotel-label').textContent =
-          `${selectedHotel.name} (${selectedHotel.stars}★ · ${selectedHotel.rating}) (${fmtMoneyInline(scale3(selectedHotel.total3Usd))})`;
+          `${selectedHotel.name} (${selectedHotel.stars}★ · HB) (${fmtMoneyInline(scale3(selectedHotel.total3Usd))})`;
         document.getElementById('bag-label-text').textContent = 'Add 8kg Trolley';
         document.getElementById('pkg-mode-label').textContent = modeLbl;
         document.getElementById('pkg-total-display').textContent = fmtMoneyInline(finalUsd);
